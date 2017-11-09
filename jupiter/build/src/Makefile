@@ -12,14 +12,14 @@ exec_prefix =${prefix}
 bindir = ${exec_prefix}/bin
 
 # VPATH staff
-srcdir = .
-
+srcdir = ../../src
+VPATH =  ../../src
 
 all: jupiter
 
 
 jupiter: main.c
-	gcc -g -O0 -o $@ main.c
+	gcc -g -O0 -o $@ $(srcdir)/main.c
 
 check: all
 	./jupiter | grep "Hello from .*jupiter"

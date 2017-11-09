@@ -26,8 +26,8 @@ $(distdir).tar.gz: $(distdir)
 	tar chof - $(distdir) | gzip -9 -c > $@
 	rm -rf $(distdir)
 # VPATH staff
-srcdir = .
-
+srcdir = ..
+VPATH =  ..
 
 $(distdir): FORCE    #FORCE is a dependency to distdir 
 	mkdir -p $(distdir)/src
