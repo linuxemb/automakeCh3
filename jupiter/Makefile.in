@@ -36,7 +36,9 @@ $(distdir): FORCE    #FORCE is a dependency to distdir
 #	cp Makefile.in  $(distdir)
 #	cp src/main.c $(distdir)/src
 #	cp src/Makefile.in $(distdir)/src
-	cp $(srcdir)/configure.ac $(distdir)
+	cp $(srcdir)/configure.h $(distdir)
+	cp $(srcdir)/install-sh $(distdir)
+	cp $(srcdir)/configure $(distdir)
 	cp $(srcdir)/configure $(distdir)
 	cp $(srcdir)/Makefile.in $(distdir)
 	cp $(srcdir)src/Makefile.in $(distdir)/src

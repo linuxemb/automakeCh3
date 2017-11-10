@@ -19,7 +19,7 @@ all: jupiter
 
 
 jupiter: main.c
-	gcc -g -O0 -o $@ main.c
+	gcc -g -O0 -o $@ $(srcdir)/main.c
 
 check: all
 	./jupiter | grep "Hello from .*jupiter"

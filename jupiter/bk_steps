@@ -1,0 +1,12 @@
+rm -rf autom4te.cache build/
+ rm configure config.* Makefile src/Makefile src/jupiter
+ mv configure.scan configure.ac
+#!/bin/sh
+autoconf --install
+automake --add-missing --copy >/dev/null 2>&1
+
+
+
+----update makefile.in---
+$ sh autogen.sh
+run sh autogen.sh created 2 files: config.h.in and install-sh
