@@ -1,0 +1,12 @@
+
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
+AC_PREREQ([2.69])
+AC_INIT([test], [1.0])
+AC_CONFIG_HEADERS([config.h])
+#AC_CHECK_HEADERS([unistd.h foobar.h])
+AC_CHECK_HEADERS([dlfcn.h])
+
+AC_OUTPUT
+			

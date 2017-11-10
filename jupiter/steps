@@ -56,3 +56,18 @@ in which it 'll substitude var based on last set of checks performed.
 
 
 -----------------------------------
+
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
+AC_PREREQ([2.69])
+AC_INIT([test], [1.0])
+AC_CONFIG_COMMANDS([ls],
+	           [echo "Testing $mypkgname"],
+		   [mypkgname=$PACKAGE_NAME])
+AC_OUTPUT
+			
+ ---create templete header file called config.h
+=== Using autheader to Generate an include file Templete=====
+ rm config.h.in    autoheader   autoconfi  ./configure cat config.h
+ it generate a entire set of preprocessor definitions was derived from configure.ac by autoheader

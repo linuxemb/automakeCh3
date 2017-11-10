@@ -3,9 +3,9 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([test], [1.0], [jupiterbugreport@example.org])
-AC_CONFIG_COMMANDS([abc],
+AC_INIT([test], [1.0])
+AC_CONFIG_COMMANDS([ls],
 	           [echo "Testing $mypkgname"],
-		   [mypkgname=$PACKAGE_nAME])
+		   [mypkgname=$PACKAGE_NAME])
 AC_OUTPUT
 			
