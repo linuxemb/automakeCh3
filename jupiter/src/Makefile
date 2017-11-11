@@ -20,7 +20,7 @@ CC	=  gcc
 DEFS    = -DHAVE_CONFIG_H
 CFLAGS  = -g -O2
 CPPFLAGS =
-LIBS	 = -lpthread 
+LIBS	 = -ldl -lpthread 
 INSTALL  =/usr/bin/install -c
 INSTALL_DATA  =${INSTALL} -m 644
 INSTALL_PROGRAM= ${INSTALL}
@@ -32,7 +32,7 @@ all: jupiter
 
 jupiter: main.c
 #	gcc -g -O0 -o $@ $(srcdir)/main.c
-	$(CC) -I. -I$(srcdir) -I.. $(DEF) $(CPPFLAGS) $(CFLAGS) -o $@ main.c  $(LIBS)
+	$(CC) -I. -I$(srcdir) -I.. $(DEFS) $(CPPFLAGS) $(CFLAGS) -o $@ main.c  $(LIBS)
 
 #	gcc -g -O0 -o $@ $(srcdir)/main.c
 
