@@ -15,12 +15,24 @@ bindir = @bindir@
 srcdir = @srcdir@
 VPATH =  @srcdir@
 
+#Tool specif substitutin var
+CC	=  @CC@
+DEFS    = @DEFS@
+CFLAGS  = @CFLAGS@
+CPPFLAGS =@CPPFLAGS@
+LIBS	 = @LIBS@
+INSTALL  =@INSTALL@
+INSTALL_DATA  =@INSTALL_DATA@
+INSTALL_PROGRAM= @INSTALL_PROGRAM@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+
+
 all: jupiter
 
 
 jupiter: main.c
 #	gcc -g -O0 -o $@ $(srcdir)/main.c
-	$(CC) -I. -I$(srcdir) -I../src $(CPPFLAGS) $(CFLAGS) -o $@ $(srcdir)/main.c 
+	$(CC) -I. -I$(srcdir) -I.. $(DEF) $(CPPFLAGS) $(CFLAGS) -o $@ main.c  $(LIBS)
 
 #	gcc -g -O0 -o $@ $(srcdir)/main.c
 
@@ -29,9 +41,17 @@ check: all
 	@echo "*** all Test passed ***"
 clean:
 	-rm jupiter
+
+
+#3rd way of install
+	$(INSTALL) -d $(DESTDIR)$(bindir)/jupiter
+	$(INSTTTALL_PROGRAM) -m 0755 jupiter $(DESTDIR)$(bindir)/jupiter
+
+# 1st way of install
+
 install:
-	install -d $(prifix)/bin
-	install -m 0755 jupiter $(prefix)/bin
+#	install -d $(prifix)/bin
+#	install -m 0755 jupiter $(prefix)/bin
 # 2nd way of  install
 	
 #	cp jupiter /usr/bin

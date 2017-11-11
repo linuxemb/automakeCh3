@@ -433,7 +433,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/lshi/projects/jupiter_vpath/jupiter'
+ac_pwd='/home/mto/jupiter/automakeCh3/jupiter'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 test -n "$AWK" || AWK=awk
@@ -610,6 +610,7 @@ S["CPP"]="gcc -E"
 S["INSTALL_DATA"]="${INSTALL} -m 644"
 S["INSTALL_SCRIPT"]="${INSTALL}"
 S["INSTALL_PROGRAM"]="${INSTALL}"
+S["bash_var"]="yes"
 S["OBJEXT"]="o"
 S["EXEEXT"]=""
 S["ac_ct_CC"]="gcc"
@@ -620,7 +621,7 @@ S["CC"]="gcc"
 S["target_alias"]=""
 S["host_alias"]=""
 S["build_alias"]=""
-S["LIBS"]=""
+S["LIBS"]="-lpthread "
 S["ECHO_T"]=""
 S["ECHO_N"]="-n"
 S["ECHO_C"]=""
@@ -703,6 +704,7 @@ D["PACKAGE_VERSION"]=" \"1.0\""
 D["PACKAGE_STRING"]=" \"Jupiter 1.0\""
 D["PACKAGE_BUGREPORT"]=" \"jupiterbugreport@example.org\""
 D["PACKAGE_URL"]=" \"\""
+D["HAVE_CONFIG_H"]=" 1"
 D["STDC_HEADERS"]=" 1"
 D["HAVE_SYS_TYPES_H"]=" 1"
 D["HAVE_SYS_STAT_H"]=" 1"

@@ -5,12 +5,18 @@ AC_PREREQ([2.69])
 AC_INIT([Jupiter], [1.0], [jupiterbugreport@example.org])
 AC_CONFIG_SRCDIR([src/main.c])
 AC_CONFIG_HEADERS([config.h])
-
+AC_DEFINE(HAVE_CONFIG_H , 1)
 # Checks for programs.
 AC_PROG_CC
+_DEBUG_START_
+AC_CHECK_PROG([bash_var],[bash],[yes],[no],,[/usr/sbin/bash])
+_DEBUG_END_
+
 AC_PROG_INSTALL
 
-# Checks for libraries.
+# Checks for libraries. check for pthead lib
+AC_SEARCH_LIBS([pthread_create], [pthread])
+
 
 # Checks for header files.
 AC_CHECK_HEADERS([stdlib.h])
