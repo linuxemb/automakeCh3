@@ -74,3 +74,12 @@ AC_OUTPUT
 Add Checklib in configure.ac will triger the target lib been added in LIBS var
 gcc -I. -I. -I.. -DHAVE_CONFIG_H  -g -O2 -o jupiter main.c  -ldl -lpthread  
 ==============================
+ AC_CHECK_HEADERS(header-file..., [action-if-found],[action-if-not-found],[include='default-includes']) 
+
+
+
+if shell script generted by AC_CHECK_HEADS loates the pthread.h   -=====> HAVE_PTHREAD_H  will be defined as 1 in config.h
+else it is added as comments in config.h
+
+
+ SO no need to define value of HAVE_CONFIG_H in configure.ac

@@ -1,11 +1,15 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <pthread.h>
 
 #if HAVE_CONFIG_H
 #include <config.h>
 #endif
 //Autoconf-provided portabiliyt
+
+#if HAVE_PTHREAD_H
+#include <pthread.h>
+#endif
+
 
 #if HAVE_DLFCN_H
 #include <dlfcn.h>
@@ -20,9 +24,13 @@ static void * print_it(void* data)
 
 int main(int argc ,char * argv[])
 {
+#if HAVE_PTHREAD_H
 	pthread_t tid;
 	pthread_create(&tid, 0, print_it, argv[0]);
 	pthread_join(tid,0);
+#else
+	print_it(argv[0]); 
+#endif
 	void *handle;
 	printf("Hello from %s\n", argv[0]);
 #if HAVE_DLFCN_H
