@@ -72,3 +72,5 @@ AC_OUTPUT
  rm config.h.in    autoheader   autoconfi  ./configure cat config.h
  it generate a entire set of preprocessor definitions was derived from configure.ac by autoheader
 Add Checklib in configure.ac will triger the target lib been added in LIBS var
+gcc -I. -I. -I.. -DHAVE_CONFIG_H  -g -O2 -o jupiter main.c  -ldl -lpthread  
+==============================
