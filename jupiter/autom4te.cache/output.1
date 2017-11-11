@@ -2036,16 +2036,6 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
 ac_config_headers="$ac_config_headers config.h"
 
 
-	{ $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: 
---------------------------------------------------
-The pthread library and header file required to build jupiter. Stoppin...
-check 'config.log' for more information.
-------------------------------------------------------------------------" >&5
-$as_echo "$as_me: WARNING: 
---------------------------------------------------
-The pthread library and header file required to build jupiter. Stoppin...
-check 'config.log' for more information.
-------------------------------------------------------------------------" >&2;}
 
 # Checks for programs.
 ac_ext=c
@@ -3077,8 +3067,66 @@ if test "$ac_res" != no; then :
 fi
 
 
+have_pthreads=no
+{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing pthread_create" >&5
+$as_echo_n "checking for library containing pthread_create... " >&6; }
+if ${ac_cv_search_pthread_create+:} false; then :
+  $as_echo_n "(cached) " >&6
+else
+  ac_func_search_save_LIBS=$LIBS
+cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+/* end confdefs.h.  */
+
+/* Override any GCC internal prototype to avoid an error.
+   Use char because int might match the return type of a GCC
+   builtin and then its argument prototype would still apply.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char pthread_create ();
+int
+main ()
+{
+return pthread_create ();
+  ;
+  return 0;
+}
+_ACEOF
+for ac_lib in '' pthread; do
+  if test -z "$ac_lib"; then
+    ac_res="none required"
+  else
+    ac_res=-l$ac_lib
+    LIBS="-l$ac_lib  $ac_func_search_save_LIBS"
+  fi
+  if ac_fn_c_try_link "$LINENO"; then :
+  ac_cv_search_pthread_create=$ac_res
+fi
+rm -f core conftest.err conftest.$ac_objext \
+    conftest$ac_exeext
+  if ${ac_cv_search_pthread_create+:} false; then :
+  break
+fi
+done
+if ${ac_cv_search_pthread_create+:} false; then :
+  
+else
+  ac_cv_search_pthread_create=no
+fi
+rm conftest.$ac_ext
+LIBS=$ac_func_search_save_LIBS
+fi
+{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_search_pthread_create" >&5
+$as_echo "$ac_cv_search_pthread_create" >&6; }
+ac_res=$ac_cv_search_pthread_create
+if test "$ac_res" != no; then :
+  test "$ac_res" = "none required" || LIBS="$ac_res $LIBS"
+  have_pthreads=yes
+fi
+ 
 
 # Checks for header files.
+
 ac_ext=c
 ac_cpp='$CPP $CPPFLAGS'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
@@ -3476,7 +3524,7 @@ fi
 done
 
 
-for ac_header in stdlib.h pthread.h
+for ac_header in stdlib.h 
 do :
   as_ac_Header=`$as_echo "ac_cv_header_$ac_header" | $as_tr_sh`
 ac_fn_c_check_header_mongrel "$LINENO" "$ac_header" "$as_ac_Header" "$ac_includes_default"
@@ -3502,65 +3550,9 @@ fi
 
 done
 
-have_pthreads=no
 
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing pthread_create" >&5
-$as_echo_n "checking for library containing pthread_create... " >&6; }
-if ${ac_cv_search_pthread_create+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  ac_func_search_save_LIBS=$LIBS
-cat confdefs.h - <<_ACEOF >conftest.$ac_ext
-/* end confdefs.h.  */
-
-/* Override any GCC internal prototype to avoid an error.
-   Use char because int might match the return type of a GCC
-   builtin and then its argument prototype would still apply.  */
-#ifdef __cplusplus
-extern "C"
-#endif
-char pthread_create ();
-int
-main ()
-{
-return pthread_create ();
-  ;
-  return 0;
-}
-_ACEOF
-for ac_lib in '' pthread; do
-  if test -z "$ac_lib"; then
-    ac_res="none required"
-  else
-    ac_res=-l$ac_lib
-    LIBS="-l$ac_lib  $ac_func_search_save_LIBS"
-  fi
-  if ac_fn_c_try_link "$LINENO"; then :
-  ac_cv_search_pthread_create=$ac_res
-fi
-rm -f core conftest.err conftest.$ac_objext \
-    conftest$ac_exeext
-  if ${ac_cv_search_pthread_create+:} false; then :
-  break
-fi
-done
-if ${ac_cv_search_pthread_create+:} false; then :
-  
-else
-  ac_cv_search_pthread_create=no
-fi
-rm conftest.$ac_ext
-LIBS=$ac_func_search_save_LIBS
-fi
-{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_search_pthread_create" >&5
-$as_echo "$ac_cv_search_pthread_create" >&6; }
-ac_res=$ac_cv_search_pthread_create
-if test "$ac_res" != no; then :
-  test "$ac_res" = "none required" || LIBS="$ac_res $LIBS"
-  have_pthreads=yes
-fi
- 
 if test "x{have_pthreads}" = xyes; then
+
 	for ac_header in pthread.h
 do :
   ac_fn_c_check_header_mongrel "$LINENO" "pthread.h" "ac_cv_header_pthread_h" "$ac_includes_default"
@@ -3575,19 +3567,20 @@ fi
 
 done
 
+	as_fn_error $? "
+--------------------------------------------------
+The pthread library and header file required to build jupiter. Stoppin...
+check 'config.log' for more information.
+------------------------------------------------------------------------" "$LINENO" 5
 fi
 
-if test "x{have_ptheads}" = xno; then
-	{ $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: 
+if test "x{have_pthreads}" = xno; then
+
+	as_fn_error $? "
 --------------------------------------------------
 The pthread library and header file required to build jupiter. Stoppin...
 check 'config.log' for more information.
-------------------------------------------------------------------------" >&5
-$as_echo "$as_me: WARNING: 
---------------------------------------------------
-The pthread library and header file required to build jupiter. Stoppin...
-check 'config.log' for more information.
-------------------------------------------------------------------------" >&2;}
+------------------------------------------------------------------------" "$LINENO" 5
 fi
 
 for ac_header in dlfcn.h
