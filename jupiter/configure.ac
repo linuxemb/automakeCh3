@@ -12,7 +12,8 @@ AC_CONFIG_HEADERS([config.h])
 	_DEBUG_START_
 AC_CHECK_PROG([bash_var],[bash],[yes],[no],,[/usr/sbin/bash])
 	_DEBUG_END_
-
+	AC_PROG_RANLIB
+	AC_PROG_CC_C_O
 	AC_PROG_INSTALL
 
 # Checks for libraries. check for pthead lib
@@ -65,6 +66,6 @@ AC_CHECK_HEADERS([dlfcn.h])
 # Checks for library functions.
 
 	AC_CONFIG_FILES([Makefile
-			src/Makefile
-			tmp/Makefile])
+			common/Makefile
+			src/Makefile])
 	AC_OUTPUT

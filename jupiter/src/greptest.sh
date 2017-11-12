@@ -1,1 +1,0 @@
-./jupiter | grep "Hello" 

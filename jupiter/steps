@@ -98,3 +98,38 @@ enalbe automake in configure.ac
 ADD unit test in Makefile.am
  ADD tmp folder in jupiter prj 
  ls -1sh tmp/ 
+
+===========make test... unit test========
+ADD PLV in makefile.am of sr/
+----------------------------------------
+TESTS = $(check_SCRIPTS)
+
+greptest.sh:
+	echo './jupiter | grep "Hello" ' > greptest.sh
+	chmod +x greptest.sh
+CLEANFILES = greptest.sh
+------------
+$ make check
+============================================================================
+Testsuite summary for Jupiter 1.0
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+ --- atuot make rule ensure that all scripts lists in TESTS are build before generate arules to check_SCRIPTS var contains a full list in TESS j
+ensure all scripts listed in TESTS are built before ehs tets are executed. check <*PLVs become important 
+= Reducing Complexity with Convenience Libraries==
+ADD common folder -- change print_it to lib .a
+ Modify common/Makefile.am ...addnoinst_LIBRARIES=libjupcommon.a
+ Product option var... jpiter_CPPFlags , jupiter_LDADD
+ ADDing the common directory to the SUBDIRS var
+Building the New Library
+ Add common in SUBDIRS of top          level Makefile.am 
+ Adding common/Makefile to the AC_CONFIG_FILES macro
+ ADD RANLIB in configure.ac
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT print.o -MD -MP -MF .deps/print.Tpo -c -o print.o print.c
