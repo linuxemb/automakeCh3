@@ -46,18 +46,31 @@ PATH: /home/mto
 ## Core tests. ##
 ## ----------- ##
 
-configure:2096: checking for gcc
-configure:2112: found /usr/bin/gcc
-configure:2123: result: gcc
-configure:2352: checking for C compiler version
-configure:2361: gcc --version >&5
+configure:2136: checking for a BSD-compatible install
+configure:2204: result: /usr/bin/install -c
+configure:2215: checking whether build environment is sane
+configure:2270: result: yes
+configure:2421: checking for a thread-safe mkdir -p
+configure:2460: result: /bin/mkdir -p
+configure:2467: checking for gawk
+configure:2483: found /usr/bin/gawk
+configure:2494: result: gawk
+configure:2505: checking whether make sets $(MAKE)
+configure:2527: result: yes
+configure:2556: checking whether make supports nested variables
+configure:2573: result: yes
+configure:2752: checking for gcc
+configure:2768: found /usr/bin/gcc
+configure:2779: result: gcc
+configure:3008: checking for C compiler version
+configure:3017: gcc --version >&5
 gcc (Ubuntu 5.4.0-6ubuntu1~16.04.4) 5.4.0 20160609
 Copyright (C) 2015 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-configure:2372: $? = 0
-configure:2361: gcc -v >&5
+configure:3028: $? = 0
+configure:3017: gcc -v >&5
 Using built-in specs.
 COLLECT_GCC=gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -65,60 +78,68 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
-configure:2372: $? = 0
-configure:2361: gcc -V >&5
+configure:3028: $? = 0
+configure:3017: gcc -V >&5
 gcc: error: unrecognized command line option '-V'
 gcc: fatal error: no input files
 compilation terminated.
-configure:2372: $? = 1
-configure:2361: gcc -qversion >&5
+configure:3028: $? = 1
+configure:3017: gcc -qversion >&5
 gcc: error: unrecognized command line option '-qversion'
 gcc: fatal error: no input files
 compilation terminated.
-configure:2372: $? = 1
-configure:2392: checking whether the C compiler works
-configure:2414: gcc    conftest.c  >&5
-configure:2418: $? = 0
-configure:2466: result: yes
-configure:2469: checking for C compiler default output file name
-configure:2471: result: a.out
-configure:2477: checking for suffix of executables
-configure:2484: gcc -o conftest    conftest.c  >&5
-configure:2488: $? = 0
-configure:2510: result: 
-configure:2532: checking whether we are cross compiling
-configure:2540: gcc -o conftest    conftest.c  >&5
-configure:2544: $? = 0
-configure:2551: ./conftest
-configure:2555: $? = 0
-configure:2570: result: no
-configure:2575: checking for suffix of object files
-configure:2597: gcc -c   conftest.c >&5
-configure:2601: $? = 0
-configure:2622: result: o
-configure:2626: checking whether we are using the GNU C compiler
-configure:2645: gcc -c   conftest.c >&5
-configure:2645: $? = 0
-configure:2654: result: yes
-configure:2663: checking whether gcc accepts -g
-configure:2683: gcc -c -g  conftest.c >&5
-configure:2683: $? = 0
-configure:2724: result: yes
-configure:2741: checking for gcc option to accept ISO C89
-configure:2804: gcc  -c -g -O2  conftest.c >&5
-configure:2804: $? = 0
-configure:2817: result: none needed
-configure:2840: checking for bash
-configure:2861: found /bin/bash
-configure:2885: result: yes
-configure:2938: checking for a BSD-compatible install
-configure:3006: result: /usr/bin/install -c
-configure:3020: checking for library containing dlopen
-configure:3051: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cclGoYNJ.o: In function `main':
-/home/mto/jupiter/automakeCh3/jupiter/conftest.c:20: undefined reference to `dlopen'
+configure:3028: $? = 1
+configure:3048: checking whether the C compiler works
+configure:3070: gcc    conftest.c  >&5
+configure:3074: $? = 0
+configure:3122: result: yes
+configure:3125: checking for C compiler default output file name
+configure:3127: result: a.out
+configure:3133: checking for suffix of executables
+configure:3140: gcc -o conftest    conftest.c  >&5
+configure:3144: $? = 0
+configure:3166: result: 
+configure:3188: checking whether we are cross compiling
+configure:3196: gcc -o conftest    conftest.c  >&5
+configure:3200: $? = 0
+configure:3207: ./conftest
+configure:3211: $? = 0
+configure:3226: result: no
+configure:3231: checking for suffix of object files
+configure:3253: gcc -c   conftest.c >&5
+configure:3257: $? = 0
+configure:3278: result: o
+configure:3282: checking whether we are using the GNU C compiler
+configure:3301: gcc -c   conftest.c >&5
+configure:3301: $? = 0
+configure:3310: result: yes
+configure:3319: checking whether gcc accepts -g
+configure:3339: gcc -c -g  conftest.c >&5
+configure:3339: $? = 0
+configure:3380: result: yes
+configure:3397: checking for gcc option to accept ISO C89
+configure:3460: gcc  -c -g -O2  conftest.c >&5
+configure:3460: $? = 0
+configure:3473: result: none needed
+configure:3498: checking whether gcc understands -c and -o together
+configure:3520: gcc -c conftest.c -o conftest2.o
+configure:3523: $? = 0
+configure:3520: gcc -c conftest.c -o conftest2.o
+configure:3523: $? = 0
+configure:3535: result: yes
+configure:3563: checking for style of include used by make
+configure:3591: result: GNU
+configure:3617: checking dependency style of gcc
+configure:3728: result: none
+configure:3746: checking for bash
+configure:3767: found /bin/bash
+configure:3791: result: yes
+configure:3805: checking for library containing dlopen
+configure:3836: gcc -o conftest -g -O2   conftest.c  >&5
+/tmp/ccrybojh.o: In function `main':
+/home/mto/jupiter/automakeCh3/jupiter/conftest.c:22: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
-configure:3051: $? = 1
+configure:3836: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Jupiter"
@@ -127,6 +148,8 @@ configure: failed program was:
 | #define PACKAGE_STRING "Jupiter 1.0"
 | #define PACKAGE_BUGREPORT "jupiterbugreport@example.org"
 | #define PACKAGE_URL ""
+| #define PACKAGE "jupiter"
+| #define VERSION "1.0"
 | /* end confdefs.h.  */
 | 
 | /* Override any GCC internal prototype to avoid an error.
@@ -143,15 +166,15 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:3051: gcc -o conftest -g -O2   conftest.c -ldl   >&5
-configure:3051: $? = 0
-configure:3068: result: -ldl
-configure:3087: checking for library containing pthread_create
-configure:3118: gcc -o conftest -g -O2   conftest.c -ldl  >&5
-/tmp/ccyEaLDO.o: In function `main':
-/home/mto/jupiter/automakeCh3/jupiter/conftest.c:20: undefined reference to `pthread_create'
+configure:3836: gcc -o conftest -g -O2   conftest.c -ldl   >&5
+configure:3836: $? = 0
+configure:3853: result: -ldl
+configure:3872: checking for library containing pthread_create
+configure:3903: gcc -o conftest -g -O2   conftest.c -ldl  >&5
+/tmp/ccJfl5un.o: In function `main':
+/home/mto/jupiter/automakeCh3/jupiter/conftest.c:22: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-configure:3118: $? = 1
+configure:3903: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Jupiter"
@@ -160,6 +183,8 @@ configure: failed program was:
 | #define PACKAGE_STRING "Jupiter 1.0"
 | #define PACKAGE_BUGREPORT "jupiterbugreport@example.org"
 | #define PACKAGE_URL ""
+| #define PACKAGE "jupiter"
+| #define VERSION "1.0"
 | /* end confdefs.h.  */
 | 
 | /* Override any GCC internal prototype to avoid an error.
@@ -176,16 +201,16 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:3118: gcc -o conftest -g -O2   conftest.c -lpthread  -ldl  >&5
-configure:3118: $? = 0
-configure:3135: result: -lpthread
-configure:3151: checking how to run the C preprocessor
-configure:3182: gcc -E  conftest.c
-configure:3182: $? = 0
-configure:3196: gcc -E  conftest.c
-conftest.c:9:28: fatal error: ac_nonexistent.h: No such file or directory
+configure:3903: gcc -o conftest -g -O2   conftest.c -lpthread  -ldl  >&5
+configure:3903: $? = 0
+configure:3920: result: -lpthread
+configure:3936: checking how to run the C preprocessor
+configure:3967: gcc -E  conftest.c
+configure:3967: $? = 0
+configure:3981: gcc -E  conftest.c
+conftest.c:11:28: fatal error: ac_nonexistent.h: No such file or directory
 compilation terminated.
-configure:3196: $? = 1
+configure:3981: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Jupiter"
@@ -194,15 +219,17 @@ configure: failed program was:
 | #define PACKAGE_STRING "Jupiter 1.0"
 | #define PACKAGE_BUGREPORT "jupiterbugreport@example.org"
 | #define PACKAGE_URL ""
+| #define PACKAGE "jupiter"
+| #define VERSION "1.0"
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
-configure:3221: result: gcc -E
-configure:3241: gcc -E  conftest.c
-configure:3241: $? = 0
-configure:3255: gcc -E  conftest.c
-conftest.c:9:28: fatal error: ac_nonexistent.h: No such file or directory
+configure:4006: result: gcc -E
+configure:4026: gcc -E  conftest.c
+configure:4026: $? = 0
+configure:4040: gcc -E  conftest.c
+conftest.c:11:28: fatal error: ac_nonexistent.h: No such file or directory
 compilation terminated.
-configure:3255: $? = 1
+configure:4040: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "Jupiter"
@@ -211,84 +238,88 @@ configure: failed program was:
 | #define PACKAGE_STRING "Jupiter 1.0"
 | #define PACKAGE_BUGREPORT "jupiterbugreport@example.org"
 | #define PACKAGE_URL ""
+| #define PACKAGE "jupiter"
+| #define VERSION "1.0"
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
-configure:3284: checking for grep that handles long lines and -e
-configure:3342: result: /bin/grep
-configure:3347: checking for egrep
-configure:3409: result: /bin/grep -E
-configure:3414: checking for ANSI C header files
-configure:3434: gcc -c -g -O2  conftest.c >&5
-configure:3434: $? = 0
-configure:3507: gcc -o conftest -g -O2   conftest.c -lpthread -ldl  >&5
-configure:3507: $? = 0
-configure:3507: ./conftest
-configure:3507: $? = 0
-configure:3518: result: yes
-configure:3531: checking for sys/types.h
-configure:3531: gcc -c -g -O2  conftest.c >&5
-configure:3531: $? = 0
-configure:3531: result: yes
-configure:3531: checking for sys/stat.h
-configure:3531: gcc -c -g -O2  conftest.c >&5
-configure:3531: $? = 0
-configure:3531: result: yes
-configure:3531: checking for stdlib.h
-configure:3531: gcc -c -g -O2  conftest.c >&5
-configure:3531: $? = 0
-configure:3531: result: yes
-configure:3531: checking for string.h
-configure:3531: gcc -c -g -O2  conftest.c >&5
-configure:3531: $? = 0
-configure:3531: result: yes
-configure:3531: checking for memory.h
-configure:3531: gcc -c -g -O2  conftest.c >&5
-configure:3531: $? = 0
-configure:3531: result: yes
-configure:3531: checking for strings.h
-configure:3531: gcc -c -g -O2  conftest.c >&5
-configure:3531: $? = 0
-configure:3531: result: yes
-configure:3531: checking for inttypes.h
-configure:3531: gcc -c -g -O2  conftest.c >&5
-configure:3531: $? = 0
-configure:3531: result: yes
-configure:3531: checking for stdint.h
-configure:3531: gcc -c -g -O2  conftest.c >&5
-configure:3531: $? = 0
-configure:3531: result: yes
-configure:3531: checking for unistd.h
-configure:3531: gcc -c -g -O2  conftest.c >&5
-configure:3531: $? = 0
-configure:3531: result: yes
-configure:3546: checking for stdlib.h
-configure:3546: result: yes
-configure:3560: checking pthread.h usability
-configure:3560: gcc -c -g -O2  conftest.c >&5
-configure:3560: $? = 0
-configure:3560: result: yes
-configure:3560: checking pthread.h presence
-configure:3560: gcc -E  conftest.c
-configure:3560: $? = 0
-configure:3560: result: yes
-configure:3560: checking for pthread.h
-configure:3560: result: yes
-configure:3576: result:
+configure:4069: checking for grep that handles long lines and -e
+configure:4127: result: /bin/grep
+configure:4132: checking for egrep
+configure:4194: result: /bin/grep -E
+configure:4199: checking for ANSI C header files
+configure:4219: gcc -c -g -O2  conftest.c >&5
+configure:4219: $? = 0
+configure:4292: gcc -o conftest -g -O2   conftest.c -lpthread -ldl  >&5
+configure:4292: $? = 0
+configure:4292: ./conftest
+configure:4292: $? = 0
+configure:4303: result: yes
+configure:4316: checking for sys/types.h
+configure:4316: gcc -c -g -O2  conftest.c >&5
+configure:4316: $? = 0
+configure:4316: result: yes
+configure:4316: checking for sys/stat.h
+configure:4316: gcc -c -g -O2  conftest.c >&5
+configure:4316: $? = 0
+configure:4316: result: yes
+configure:4316: checking for stdlib.h
+configure:4316: gcc -c -g -O2  conftest.c >&5
+configure:4316: $? = 0
+configure:4316: result: yes
+configure:4316: checking for string.h
+configure:4316: gcc -c -g -O2  conftest.c >&5
+configure:4316: $? = 0
+configure:4316: result: yes
+configure:4316: checking for memory.h
+configure:4316: gcc -c -g -O2  conftest.c >&5
+configure:4316: $? = 0
+configure:4316: result: yes
+configure:4316: checking for strings.h
+configure:4316: gcc -c -g -O2  conftest.c >&5
+configure:4316: $? = 0
+configure:4316: result: yes
+configure:4316: checking for inttypes.h
+configure:4316: gcc -c -g -O2  conftest.c >&5
+configure:4316: $? = 0
+configure:4316: result: yes
+configure:4316: checking for stdint.h
+configure:4316: gcc -c -g -O2  conftest.c >&5
+configure:4316: $? = 0
+configure:4316: result: yes
+configure:4316: checking for unistd.h
+configure:4316: gcc -c -g -O2  conftest.c >&5
+configure:4316: $? = 0
+configure:4316: result: yes
+configure:4331: checking for stdlib.h
+configure:4331: result: yes
+configure:4345: checking pthread.h usability
+configure:4345: gcc -c -g -O2  conftest.c >&5
+configure:4345: $? = 0
+configure:4345: result: yes
+configure:4345: checking pthread.h presence
+configure:4345: gcc -E  conftest.c
+configure:4345: $? = 0
+configure:4345: result: yes
+configure:4345: checking for pthread.h
+configure:4345: result: yes
+configure:4361: result:
 			------------------------------------------------------------------------
 			The pthread library and header file required to build We found it...
 			check 'config.log' for more information.
 			------------------------------------------------------------------------
-configure:3613: checking dlfcn.h usability
-configure:3613: gcc -c -g -O2  conftest.c >&5
-configure:3613: $? = 0
-configure:3613: result: yes
-configure:3613: checking dlfcn.h presence
-configure:3613: gcc -E  conftest.c
-configure:3613: $? = 0
-configure:3613: result: yes
-configure:3613: checking for dlfcn.h
-configure:3613: result: yes
-configure:3743: creating ./config.status
+configure:4398: checking dlfcn.h usability
+configure:4398: gcc -c -g -O2  conftest.c >&5
+configure:4398: $? = 0
+configure:4398: result: yes
+configure:4398: checking dlfcn.h presence
+configure:4398: gcc -E  conftest.c
+configure:4398: $? = 0
+configure:4398: result: yes
+configure:4398: checking for dlfcn.h
+configure:4398: result: yes
+configure:4523: checking that generated files are newer than configure
+configure:4529: result: done
+configure:4552: creating ./config.status
 
 ## ---------------------- ##
 ## Running config.status. ##
@@ -305,9 +336,12 @@ generated by GNU Autoconf 2.69.  Invocation command line was
 
 on ubuntu
 
-config.status:808: creating Makefile
-config.status:808: creating src/Makefile
-config.status:808: creating config.h
+config.status:860: creating Makefile
+config.status:860: creating src/Makefile
+config.status:860: creating tmp/Makefile
+config.status:860: creating config.h
+config.status:1041: config.h is unchanged
+config.status:1089: executing depfiles commands
 
 ## ---------------- ##
 ## Cache variables. ##
@@ -348,23 +382,45 @@ ac_cv_objext=o
 ac_cv_path_EGREP='/bin/grep -E'
 ac_cv_path_GREP=/bin/grep
 ac_cv_path_install='/usr/bin/install -c'
+ac_cv_path_mkdir=/bin/mkdir
+ac_cv_prog_AWK=gawk
 ac_cv_prog_CPP='gcc -E'
 ac_cv_prog_ac_ct_CC=gcc
 ac_cv_prog_bash_var=yes
 ac_cv_prog_cc_c89=
 ac_cv_prog_cc_g=yes
+ac_cv_prog_make_make_set=yes
 ac_cv_search_dlopen=-ldl
 ac_cv_search_pthread_create=-lpthread
+am_cv_CC_dependencies_compiler_type=none
+am_cv_make_support_nested_variables=yes
+am_cv_prog_cc_c_o=yes
 
 ## ----------------- ##
 ## Output variables. ##
 ## ----------------- ##
 
+ACLOCAL='${SHELL} /home/mto/jupiter/automakeCh3/jupiter/missing aclocal-1.15'
+AMDEPBACKSLASH='\'
+AMDEP_FALSE='#'
+AMDEP_TRUE=''
+AMTAR='$${TAR-tar}'
+AM_BACKSLASH='\'
+AM_DEFAULT_V='$(AM_DEFAULT_VERBOSITY)'
+AM_DEFAULT_VERBOSITY='1'
+AM_V='$(V)'
+AUTOCONF='${SHELL} /home/mto/jupiter/automakeCh3/jupiter/missing autoconf'
+AUTOHEADER='${SHELL} /home/mto/jupiter/automakeCh3/jupiter/missing autoheader'
+AUTOMAKE='${SHELL} /home/mto/jupiter/automakeCh3/jupiter/missing automake-1.15'
+AWK='gawk'
 CC='gcc'
+CCDEPMODE='depmode=none'
 CFLAGS='-g -O2'
 CPP='gcc -E'
 CPPFLAGS=''
+CYGPATH_W='echo'
 DEFS='-DHAVE_CONFIG_H'
+DEPDIR='.deps'
 ECHO_C=''
 ECHO_N='-n'
 ECHO_T=''
@@ -374,11 +430,15 @@ GREP='/bin/grep'
 INSTALL_DATA='${INSTALL} -m 644'
 INSTALL_PROGRAM='${INSTALL}'
 INSTALL_SCRIPT='${INSTALL}'
+INSTALL_STRIP_PROGRAM='$(install_sh) -c -s'
 LDFLAGS=''
 LIBOBJS=''
 LIBS='-lpthread -ldl '
 LTLIBOBJS=''
+MAKEINFO='${SHELL} /home/mto/jupiter/automakeCh3/jupiter/missing makeinfo'
+MKDIR_P='/bin/mkdir -p'
 OBJEXT='o'
+PACKAGE='jupiter'
 PACKAGE_BUGREPORT='jupiterbugreport@example.org'
 PACKAGE_NAME='Jupiter'
 PACKAGE_STRING='Jupiter 1.0'
@@ -386,8 +446,22 @@ PACKAGE_TARNAME='jupiter'
 PACKAGE_URL=''
 PACKAGE_VERSION='1.0'
 PATH_SEPARATOR=':'
+SET_MAKE=''
 SHELL='/bin/bash'
+STRIP=''
+VERSION='1.0'
 ac_ct_CC='gcc'
+am__EXEEXT_FALSE=''
+am__EXEEXT_TRUE='#'
+am__fastdepCC_FALSE=''
+am__fastdepCC_TRUE='#'
+am__include='include'
+am__isrc=''
+am__leading_dot='.'
+am__nodep='_no'
+am__quote=''
+am__tar='$${TAR-tar} chof - "$$tardir"'
+am__untar='$${TAR-tar} xf -'
 bash_var='yes'
 bindir='${exec_prefix}/bin'
 build_alias=''
@@ -400,11 +474,13 @@ host_alias=''
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
+install_sh='${SHELL} /home/mto/jupiter/automakeCh3/jupiter/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'
 localstatedir='${prefix}/var'
 mandir='${datarootdir}/man'
+mkdir_p='$(MKDIR_P)'
 oldincludedir='/usr/include'
 pdfdir='${docdir}'
 prefix='/usr/local'
@@ -427,6 +503,8 @@ target_alias=''
 #define PACKAGE_STRING "Jupiter 1.0"
 #define PACKAGE_BUGREPORT "jupiterbugreport@example.org"
 #define PACKAGE_URL ""
+#define PACKAGE "jupiter"
+#define VERSION "1.0"
 #define STDC_HEADERS 1
 #define HAVE_SYS_TYPES_H 1
 #define HAVE_SYS_STAT_H 1

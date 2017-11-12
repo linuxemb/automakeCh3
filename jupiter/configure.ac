@@ -3,9 +3,9 @@
 
 	AC_PREREQ([2.69])
 	AC_INIT([Jupiter], [1.0], [jupiterbugreport@example.org])
+	AM_INIT_AUTOMAKE
 	AC_CONFIG_SRCDIR([src/main.c])
 AC_CONFIG_HEADERS([config.h])
-
 
 # Checks for programs.
 	AC_PROG_CC
@@ -65,5 +65,6 @@ AC_CHECK_HEADERS([dlfcn.h])
 # Checks for library functions.
 
 	AC_CONFIG_FILES([Makefile
-			src/Makefile])
+			src/Makefile
+			tmp/Makefile])
 	AC_OUTPUT

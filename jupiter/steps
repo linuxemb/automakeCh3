@@ -85,3 +85,16 @@ else it is added as comments in config.h
  SO no need to define value of HAVE_CONFIG_H in configure.ac
 ==== supporting optinal Features and packages
 1 ) macro AC_ARG_WITH  2) AC_ARG_ENABLE
+
+CH 5 Automake
+
+
+bin_PROGRAMS = jupiter
+jupiter_SOURCE = main.c
+
+bin_PROGRAMS = jupiter
+jupiter_SOURCE = main.c
+enalbe automake in configure.ac
+ADD unit test in Makefile.am
+ ADD tmp folder in jupiter prj 
+ ls -1sh tmp/ 
