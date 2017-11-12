@@ -3550,8 +3550,7 @@ fi
 
 done
 
-
-if test "x{have_pthreads}" = xyes; then
+if test "x${have_pthreads}" = xyes; then
 
 	for ac_header in pthread.h
 do :
@@ -3567,14 +3566,19 @@ fi
 
 done
 
-	as_fn_error $? "
---------------------------------------------------
-The pthread library and header file required to build jupiter. Stoppin...
+	{ $as_echo "$as_me:${as_lineno-$LINENO}: result:
+------------------------------------------------------------------------
+The pthread library and header file required to build We found it...
 check 'config.log' for more information.
-------------------------------------------------------------------------" "$LINENO" 5
+------------------------------------------------------------------------" >&5
+$as_echo "
+------------------------------------------------------------------------
+The pthread library and header file required to build We found it...
+check 'config.log' for more information.
+------------------------------------------------------------------------" >&6; }
 fi
 
-if test "x{have_pthreads}" = xno; then
+if test "x${have_pthreads}" = xno; then
 
 	as_fn_error $? "
 --------------------------------------------------

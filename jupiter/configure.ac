@@ -25,18 +25,17 @@ AC_SEARCH_LIBS([pthread_create], [pthread], [have_pthreads=yes])
 
 AC_CHECK_HEADERS([stdlib.h ])
 AC_CHECK_HEADERS([stdlib.h ])
-
-if test "x{have_pthreads}" = xyes; then
+if test "x${have_pthreads}" = xyes; then
 
 	AC_CHECK_HEADERS([pthread.h],[],[have_pthreads=no])
-	AC_MSG_ERROR([
---------------------------------------------------
-The pthread library and header file required to build jupiter. Stoppin...
+	AC_MSG_RESULT([
+------------------------------------------------------------------------
+The pthread library and header file required to build We found it...
 check 'config.log' for more information.
 ------------------------------------------------------------------------])
 fi
 
-if test "x{have_pthreads}" = xno; then
+if test "x${have_pthreads}" = xno; then
 
 	AC_MSG_ERROR([
 --------------------------------------------------

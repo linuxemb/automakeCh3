@@ -11,7 +11,7 @@
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 if you have the <pthread.h> header file. */
-/* #undef HAVE_PTHREAD_H */
+#define HAVE_PTHREAD_H 1
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
