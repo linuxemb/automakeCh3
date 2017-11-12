@@ -133,3 +133,15 @@ Building the New Library
  Adding common/Makefile to the AC_CONFIG_FILES macro
  ADD RANLIB in configure.ac
 gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT print.o -MD -MP -MF .deps/print.Tpo -c -o print.o print.c
+[master 6f5f6d6] ADD lib  build works CH5
+
+
+Cutting through the noise
+ make > /dev/null
+Adding shared lib to Jupiter
+wget ftp.gnu.org/gnu/libtool/libtool-2.2.6a.tar.gz
+Using the LTLIBRARIES primary
+ Modify top level Makefile.am-- -Adding libjup:
+Update subdirs var in Makefle.am
+libjupcommon_a_CFLAGS
+libjupcommon_a_CFLAGS = -fPIC

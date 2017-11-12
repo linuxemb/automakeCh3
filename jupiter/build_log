@@ -1,0 +1,36 @@
+ll-recursive
+make[1]: Entering directory '/home/mto/jupiter/automakeCh3/jupiter'
+Making all in common
+make[2]: Entering directory '/home/mto/jupiter/automakeCh3/jupiter/common'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/mto/jupiter/automakeCh3/jupiter/common'
+Making all in include
+make[2]: Entering directory '/home/mto/jupiter/automakeCh3/jupiter/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/mto/jupiter/automakeCh3/jupiter/include'
+Making all in libjup
+make[2]: Entering directory '/home/mto/jupiter/automakeCh3/jupiter/libjup'
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I../common   -g -O2 -MT libjupiter_la-jup_print.lo -MD -MP -MF .deps/libjupiter_la-jup_print.Tpo -c -o libjupiter_la-jup_print.lo `test -f 'jup_print.c' || echo './'`jup_print.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../common -g -O2 -MT libjupiter_la-jup_print.lo -MD -MP -MF .deps/libjupiter_la-jup_print.Tpo -c jup_print.c  -fPIC -DPIC -o .libs/libjupiter_la-jup_print.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../common -g -O2 -MT libjupiter_la-jup_print.lo -MD -MP -MF .deps/libjupiter_la-jup_print.Tpo -c jup_print.c -o libjupiter_la-jup_print.o >/dev/null 2>&1
+mv -f .deps/libjupiter_la-jup_print.Tpo .deps/libjupiter_la-jup_print.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libjupiter.la -rpath /usr/local/lib libjupiter_la-jup_print.lo ../common/libjupcommon.a -lpthread -ldl 
+
+*** Warning: Linking the shared library libjupiter.la against the
+*** static library ../common/libjupcommon.a is not portable!
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libjupiter_la-jup_print.o   ../common/libjupcommon.a -lpthread -ldl  -g -O2   -Wl,-soname -Wl,libjupiter.so.0 -o .libs/libjupiter.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libjupiter.so.0" && ln -s "libjupiter.so.0.0.0" "libjupiter.so.0")
+libtool: link: (cd ".libs" && rm -f "libjupiter.so" && ln -s "libjupiter.so.0.0.0" "libjupiter.so")
+libtool: link: ar cru .libs/libjupiter.a ../common/libjupcommon.a  libjupiter_la-jup_print.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libjupiter.a
+libtool: link: ( cd ".libs" && rm -f "libjupiter.la" && ln -s "../libjupiter.la" "libjupiter.la" )
+make[2]: Leaving directory '/home/mto/jupiter/automakeCh3/jupiter/libjup'
+Making all in src
+make[2]: Entering directory '/home/mto/jupiter/automakeCh3/jupiter/src'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/mto/jupiter/automakeCh3/jupiter/src'
+make[2]: Entering directory '/home/mto/jupiter/automakeCh3/jupiter'
+make[2]: Leaving directory '/home/mto/jupiter/automakeCh3/jupiter'
+make[1]: Leaving directory '/home/mto/jupiter/automakeCh3/jupiter'
+

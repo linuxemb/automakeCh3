@@ -3,8 +3,8 @@ jupiter_SOURCE = main.c
 
 
 # Produce Option Variable-- POV
-jupiter_CPPFLAGS = -I$(top_srcdir)/common
-jupiter_LDADD = ../common/libjupcommon.a
+jupiter_CPPFLAGS = -I$(top_srcdir)/include
+jupiter_LDADD = ../libjup/libjupiter.la
 # 
 #check_SCRIPTS = greptest.sh redendent.
 
