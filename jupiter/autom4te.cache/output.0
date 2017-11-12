@@ -680,6 +680,7 @@ SHELL'
 ac_subst_files=''
 ac_user_opts='
 enable_option_checking
+enable_asyn_exec
 '
       ac_precious_vars='build_alias
 host_alias
@@ -1305,6 +1306,12 @@ if test -n "$ac_init_help"; then
      short | recursive ) echo "Configuration of Jupiter 1.0:";;
    esac
   cat <<\_ACEOF
+
+Optional Features:
+  --disable-option-checking  ignore unrecognized --enable/--with options
+  --disable-FEATURE       do not include FEATURE (same as --enable-FEATURE=no)
+  --enable-FEATURE[=ARG]  include FEATURE [ARG=yes]
+  --disable-async-exec		 disable async exec
 
 Some influential environment variables:
   CC          C compiler command
@@ -2032,13 +2039,13 @@ ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 
-
+	
 ac_config_headers="$ac_config_headers config.h"
 
 
 
 # Checks for programs.
-ac_ext=c
+	ac_ext=c
 ac_cpp='$CPP $CPPFLAGS'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
@@ -2827,7 +2834,7 @@ ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
-_DEBUG_START_
+	_DEBUG_START_
 # Extract the first word of "bash", so it can be a program name with args.
 set dummy bash; ac_word=$2
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
@@ -2883,9 +2890,9 @@ $as_echo "no" >&6; }
 fi
 
 
-_DEBUG_END_
+	_DEBUG_END_
 
-ac_aux_dir=
+	ac_aux_dir=
 for ac_dir in "$srcdir" "$srcdir/.." "$srcdir/../.."; do
   if test -f "$ac_dir/install-sh"; then
     ac_aux_dir=$ac_dir
@@ -3067,8 +3074,17 @@ if test "$ac_res" != no; then :
 fi
 
 
-have_pthreads=no
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing pthread_create" >&5
+# Check for command-line options
+@%:@ Check whether --enable-asyn-exec was given.
+if test "${enable_asyn_exec+set}" = set; then :
+  enableval=$enable_asyn_exec; async_exec= ${enableval}
+else
+  async_exec=yes
+fi
+
+
+		have_pthreads=no
+		{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing pthread_create" >&5
 $as_echo_n "checking for library containing pthread_create... " >&6; }
 if ${ac_cv_search_pthread_create+:} false; then :
   $as_echo_n "(cached) " >&6
@@ -3127,7 +3143,7 @@ fi
 
 # Checks for header files.
 
-ac_ext=c
+		ac_ext=c
 ac_cpp='$CPP $CPPFLAGS'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
@@ -3537,22 +3553,9 @@ fi
 
 done
 
-for ac_header in stdlib.h 
-do :
-  as_ac_Header=`$as_echo "ac_cv_header_$ac_header" | $as_tr_sh`
-ac_fn_c_check_header_mongrel "$LINENO" "$ac_header" "$as_ac_Header" "$ac_includes_default"
-if eval test \"x\$"$as_ac_Header"\" = x"yes"; then :
-  cat >>confdefs.h <<_ACEOF
-@%:@define `$as_echo "HAVE_$ac_header" | $as_tr_cpp` 1
-_ACEOF
- 
-fi
+		if test "x${have_pthreads}" = xyes; then
 
-done
-
-if test "x${have_pthreads}" = xyes; then
-
-	for ac_header in pthread.h
+		for ac_header in pthread.h
 do :
   ac_fn_c_check_header_mongrel "$LINENO" "pthread.h" "ac_cv_header_pthread_h" "$ac_includes_default"
 if test "x$ac_cv_header_pthread_h" = xyes; then :
@@ -3566,25 +3569,43 @@ fi
 
 done
 
-	{ $as_echo "$as_me:${as_lineno-$LINENO}: result: 
-------------------------------------------------------------------------
-The pthread library and header file required to build We found it...
-check 'config.log' for more information.
-------------------------------------------------------------------------" >&5
+		{ $as_echo "$as_me:${as_lineno-$LINENO}: result: 
+			------------------------------------------------------------------------
+			The pthread library and header file required to build We found it...
+			check 'config.log' for more information.
+			------------------------------------------------------------------------" >&5
 $as_echo "
-------------------------------------------------------------------------
-The pthread library and header file required to build We found it...
-check 'config.log' for more information.
-------------------------------------------------------------------------" >&6; }
-fi
+			------------------------------------------------------------------------
+			The pthread library and header file required to build We found it...
+			check 'config.log' for more information.
+			------------------------------------------------------------------------" >&6; }
+		fi
+
+
 
 if test "x${have_pthreads}" = xno; then
+	if test "x${async_exec}" = xyes; then
+		{ $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: 
+		--------------------------------------------------
+		unable to find the pthreads on this system, build a single -thread version
+		check 'config.log' for more information.
+		------------------------------------------------------------------------" >&5
+$as_echo "$as_me: WARNING: 
+		--------------------------------------------------
+		unable to find the pthreads on this system, build a single -thread version
+		check 'config.log' for more information.
+		------------------------------------------------------------------------" >&2;}
+	fi
 
-	as_fn_error $? "
---------------------------------------------------
-The pthread library and header file required to build jupiter. Stoppin...
-check 'config.log' for more information.
-------------------------------------------------------------------------" "$LINENO" 5
+		async_exec = no
+fi
+
+
+
+if test "x${async_exec}" = xyes; then
+    
+$as_echo "@%:@define ASYNC_EXEC 1" >>confdefs.h
+
 fi
 
 for ac_header in dlfcn.h
@@ -3603,9 +3624,9 @@ done
 
 # Checks for library functions.
 
-ac_config_files="$ac_config_files Makefile src/Makefile"
+	ac_config_files="$ac_config_files Makefile src/Makefile"
 
-cat >confcache <<\_ACEOF
+	cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
 # tests run on this system so they can be shared between configure
 # scripts and configure runs, see configure's option --config-cache.
