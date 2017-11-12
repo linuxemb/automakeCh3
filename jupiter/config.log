@@ -39,7 +39,6 @@ PATH: /usr/games
 PATH: /usr/local/games
 PATH: /snap/bin
 PATH: /home/mto
-PATH: /home/mto
 
 
 ## ----------- ##
@@ -136,7 +135,7 @@ configure:3767: found /bin/bash
 configure:3791: result: yes
 configure:3805: checking for library containing dlopen
 configure:3836: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccrybojh.o: In function `main':
+/tmp/ccJiFshN.o: In function `main':
 /home/mto/jupiter/automakeCh3/jupiter/conftest.c:22: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:3836: $? = 1
@@ -171,7 +170,7 @@ configure:3836: $? = 0
 configure:3853: result: -ldl
 configure:3872: checking for library containing pthread_create
 configure:3903: gcc -o conftest -g -O2   conftest.c -ldl  >&5
-/tmp/ccJfl5un.o: In function `main':
+/tmp/ccpcDGlR.o: In function `main':
 /home/mto/jupiter/automakeCh3/jupiter/conftest.c:22: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 configure:3903: $? = 1
