@@ -127,7 +127,7 @@ am__uninstall_files_from_dir = { \
   }
 am__installdirs = "$(DESTDIR)$(libdir)"
 LTLIBRARIES = $(lib_LTLIBRARIES)
-libjupiter_la_DEPENDENCIES = ../common/libjupcommon.a
+libjupiter_la_DEPENDENCIES = ../common/libjupcommon.la
 am_libjupiter_la_OBJECTS = libjupiter_la-jup_print.lo
 libjupiter_la_OBJECTS = $(am_libjupiter_la_OBJECTS)
 AM_V_lt = $(am__v_lt_@AM_V@)
@@ -316,7 +316,7 @@ top_srcdir = @top_srcdir@
 lib_LTLIBRARIES = libjupiter.la
 libjupiter_la_SOURCES = jup_print.c
 libjupiter_la_CPPFLAGS = -I$(top_srcdir)/include -I$(top_srcdir)/common
-libjupiter_la_LIBADD = ../common/libjupcommon.a
+libjupiter_la_LIBADD = ../common/libjupcommon.la
 all: all-am
 
 .SUFFIXES:
