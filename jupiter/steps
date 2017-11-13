@@ -139,6 +139,10 @@ gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT print.o -MD -MP -MF .deps/print.Tpo 
 Cutting through the noise
  make > /dev/null
 Adding shared lib to Jupiter
+
+===================================Libtools========================
+Add include and libjup directory makfiles  --- AC_CONFIG_FILES([include/Makefile libjup/Makefile...])
+
 wget ftp.gnu.org/gnu/libtool/libtool-2.2.6a.tar.gz
 Using the LTLIBRARIES primary
  Modify top level Makefile.am-- -Adding libjup:
