@@ -1,0 +1,1519 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing aclocal-1.15$/;"	m
+ACLOCAL	common/Makefile	/^ACLOCAL = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing aclocal-1.15$/;"	m
+ACLOCAL	include/Makefile	/^ACLOCAL = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing aclocal-1.15$/;"	m
+ACLOCAL	libjup/Makefile	/^ACLOCAL = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing aclocal-1.15$/;"	m
+ACLOCAL	src/Makefile	/^ACLOCAL = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing aclocal-1.15$/;"	m
+ACLOCAL	tmp/Makefile	/^ACLOCAL = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing aclocal-1.15$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	common/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	include/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	libjup/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	tmp/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	common/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	include/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	libjup/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	src/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	tmp/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	common/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	include/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	libjup/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	src/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	tmp/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = $(am__recursive_targets:-recursive=) TAGS CTAGS \\$/;"	m
+AM_RECURSIVE_TARGETS	src/Makefile	/^AM_RECURSIVE_TARGETS = $(am__recursive_targets:-recursive=) TAGS CTAGS \\$/;"	m
+AM_V_CC	common/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CC	libjup/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	common/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CCLD	libjup/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	common/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	include/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	libjup/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	src/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	tmp/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	common/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	include/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	libjup/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	src/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	tmp/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	common/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	include/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	libjup/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	src/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	tmp/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	common/Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AM_V_lt	libjup/Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AR	common/Makefile	/^AR = ar$/;"	m
+AR	include/Makefile	/^AR = ar$/;"	m
+AR	libjup/Makefile	/^AR = ar$/;"	m
+AR	src/Makefile	/^AR = ar$/;"	m
+ASYNC_EXEC	config.h	5;"	d
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoconf$/;"	m
+AUTOCONF	common/Makefile	/^AUTOCONF = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoconf$/;"	m
+AUTOCONF	include/Makefile	/^AUTOCONF = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoconf$/;"	m
+AUTOCONF	libjup/Makefile	/^AUTOCONF = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoconf$/;"	m
+AUTOCONF	src/Makefile	/^AUTOCONF = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoconf$/;"	m
+AUTOCONF	tmp/Makefile	/^AUTOCONF = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoheader$/;"	m
+AUTOHEADER	common/Makefile	/^AUTOHEADER = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoheader$/;"	m
+AUTOHEADER	include/Makefile	/^AUTOHEADER = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoheader$/;"	m
+AUTOHEADER	libjup/Makefile	/^AUTOHEADER = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoheader$/;"	m
+AUTOHEADER	src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoheader$/;"	m
+AUTOHEADER	tmp/Makefile	/^AUTOHEADER = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing automake-1.15$/;"	m
+AUTOMAKE	common/Makefile	/^AUTOMAKE = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing automake-1.15$/;"	m
+AUTOMAKE	include/Makefile	/^AUTOMAKE = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing automake-1.15$/;"	m
+AUTOMAKE	libjup/Makefile	/^AUTOMAKE = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing automake-1.15$/;"	m
+AUTOMAKE	src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing automake-1.15$/;"	m
+AUTOMAKE	tmp/Makefile	/^AUTOMAKE = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing automake-1.15$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+AWK	common/Makefile	/^AWK = gawk$/;"	m
+AWK	include/Makefile	/^AWK = gawk$/;"	m
+AWK	libjup/Makefile	/^AWK = gawk$/;"	m
+AWK	src/Makefile	/^AWK = gawk$/;"	m
+AWK	tmp/Makefile	/^AWK = gawk$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CC	common/Makefile	/^CC = gcc$/;"	m
+CC	include/Makefile	/^CC = gcc$/;"	m
+CC	libjup/Makefile	/^CC = gcc$/;"	m
+CC	src/Makefile	/^CC = gcc$/;"	m
+CC	tmp/Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	common/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	include/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	libjup/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	tmp/Makefile	/^CCDEPMODE = depmode=none$/;"	m
+CCLD	common/Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	libjup/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	common/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	include/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	libjup/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	src/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	tmp/Makefile	/^CFLAGS = -g -O2$/;"	m
+CLEANFILES	src/Makefile	/^CLEANFILES = greptest.sh  # add it to clean list$/;"	m
+COMPILE	common/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	libjup/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	common/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	include/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	libjup/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	tmp/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	common/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	include/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	libjup/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	src/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	tmp/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	common/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	include/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	libjup/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	tmp/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPP	common/Makefile	/^CPP = gcc -E$/;"	m
+CPP	include/Makefile	/^CPP = gcc -E$/;"	m
+CPP	libjup/Makefile	/^CPP = gcc -E$/;"	m
+CPP	src/Makefile	/^CPP = gcc -E$/;"	m
+CPP	tmp/Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	common/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	include/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	libjup/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	src/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	tmp/Makefile	/^CPPFLAGS = $/;"	m
+CSCOPE	Makefile	/^CSCOPE = cscope$/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	common/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	include/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	libjup/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	src/Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	common/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	include/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	libjup/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	src/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	tmp/Makefile	/^CYGPATH_W = echo$/;"	m
+CreateProcess	libtool	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+CreateProcess	ltmain.sh	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+DEFAULT_INCLUDES	common/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	libjup/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_SALUTATION	src/main.c	15;"	d	file:
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	common/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	include/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	libjup/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	tmp/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	common/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	include/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	libjup/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	src/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	tmp/Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	common/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	include/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	libjup/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	tmp/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(top_srcdir)\/configure \\$/;"	m
+DIST_COMMON	common/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_COMMON	include/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(include_HEADERS) \\$/;"	m
+DIST_COMMON	libjup/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_COMMON	src/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_COMMON	tmp/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	common/Makefile	/^DIST_SOURCES = $(libjupcommon_la_SOURCES)$/;"	m
+DIST_SOURCES	include/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	libjup/Makefile	/^DIST_SOURCES = $(libjupiter_la_SOURCES)$/;"	m
+DIST_SOURCES	src/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	tmp/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	src/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_TARGETS	Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	common/Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	include/Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	libjup/Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	src/Makefile	/^DLLTOOL = false$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	common/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	include/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	libjup/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	src/Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	common/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	include/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	libjup/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	src/Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_C	common/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	include/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	libjup/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	src/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	tmp/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	common/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	include/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	libjup/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	tmp/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+ECHO_T	common/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	include/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	libjup/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	src/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	tmp/Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	common/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	include/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	libjup/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	src/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	tmp/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGS	common/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	include/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	libjup/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	src/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXEEXT	common/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	include/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	libjup/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	src/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	tmp/Makefile	/^EXEEXT = $/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	common/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	include/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	libjup/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	src/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GET_SATLUTATION_SYM	src/module.h	6;"	d
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	common/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	include/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	libjup/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	src/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	tmp/Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+HAVE_DLFCN_H	build/config.h	5;"	d
+HAVE_DLFCN_H	config.h	8;"	d
+HAVE_INTTYPES_H	build/config.h	8;"	d
+HAVE_INTTYPES_H	config.h	11;"	d
+HAVE_MEMORY_H	build/config.h	11;"	d
+HAVE_MEMORY_H	config.h	14;"	d
+HAVE_PTHREAD_H	config.h	17;"	d
+HAVE_STDINT_H	build/config.h	14;"	d
+HAVE_STDINT_H	config.h	20;"	d
+HAVE_STDLIB_H	build/config.h	17;"	d
+HAVE_STDLIB_H	config.h	23;"	d
+HAVE_STRINGS_H	build/config.h	20;"	d
+HAVE_STRINGS_H	config.h	26;"	d
+HAVE_STRING_H	build/config.h	23;"	d
+HAVE_STRING_H	config.h	29;"	d
+HAVE_SYS_STAT_H	build/config.h	26;"	d
+HAVE_SYS_STAT_H	config.h	32;"	d
+HAVE_SYS_TYPES_H	build/config.h	29;"	d
+HAVE_SYS_TYPES_H	config.h	35;"	d
+HAVE_UNISTD_H	build/config.h	32;"	d
+HAVE_UNISTD_H	config.h	38;"	d
+HEADERS	include/Makefile	/^HEADERS = $(include_HEADERS)$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	common/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	include/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	libjup/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	tmp/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	common/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	include/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	libjup/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	tmp/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	common/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	include/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	libjup/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	tmp/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	common/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	include/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	libjup/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	tmp/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	common/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	include/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	libjup/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	tmp/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	common/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	include/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	libjup/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	src/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	tmp/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LD	Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LD	common/Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LD	include/Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LD	libjup/Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LD	src/Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	common/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	include/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	libjup/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	src/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	tmp/Makefile	/^LDFLAGS = $/;"	m
+LIBJUPITER_H_INCLUDED	include/libjupiter.h	2;"	d
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	common/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	include/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	libjup/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	src/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	tmp/Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = -lpthread -ldl $/;"	m
+LIBS	common/Makefile	/^LIBS = -lpthread -ldl $/;"	m
+LIBS	include/Makefile	/^LIBS = -lpthread -ldl $/;"	m
+LIBS	libjup/Makefile	/^LIBS = -lpthread -ldl $/;"	m
+LIBS	src/Makefile	/^LIBS = -lpthread -ldl $/;"	m
+LIBS	tmp/Makefile	/^LIBS = -lpthread -ldl $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	common/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	include/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	libjup/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	src/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	common/Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LINK	libjup/Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LIPO	common/Makefile	/^LIPO = $/;"	m
+LIPO	include/Makefile	/^LIPO = $/;"	m
+LIPO	libjup/Makefile	/^LIPO = $/;"	m
+LIPO	src/Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LN_S	common/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	include/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	libjup/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	src/Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	common/Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTCOMPILE	libjup/Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	common/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	include/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	libjup/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	src/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	tmp/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	common/Makefile	/^LTLIBRARIES = $(noinst_LTLIBRARIES)$/;"	m
+LTLIBRARIES	libjup/Makefile	/^LTLIBRARIES = $(lib_LTLIBRARIES)$/;"	m
+LT_OBJDIR	config.h	41;"	d
+LT_SYS_LIBRARY_PATH	Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
+LT_SYS_LIBRARY_PATH	common/Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
+LT_SYS_LIBRARY_PATH	include/Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
+LT_SYS_LIBRARY_PATH	libjup/Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
+LT_SYS_LIBRARY_PATH	src/Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing makeinfo$/;"	m
+MAKEINFO	common/Makefile	/^MAKEINFO = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing makeinfo$/;"	m
+MAKEINFO	include/Makefile	/^MAKEINFO = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing makeinfo$/;"	m
+MAKEINFO	libjup/Makefile	/^MAKEINFO = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing makeinfo$/;"	m
+MAKEINFO	src/Makefile	/^MAKEINFO = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing makeinfo$/;"	m
+MAKEINFO	tmp/Makefile	/^MAKEINFO = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/missing makeinfo$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	common/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	include/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	libjup/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	src/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	common/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	include/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	libjup/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	src/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	tmp/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MODULE_H_INCLUDED	src/module.h	2;"	d
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	common/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	include/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	libjup/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	src/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NMEDIT	common/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	include/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	libjup/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	src/Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	common/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	include/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	libjup/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	tmp/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	common/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	include/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	libjup/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	tmp/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	common/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	include/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	libjup/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	src/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	common/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	include/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	libjup/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	src/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	tmp/Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL	common/Makefile	/^OTOOL = $/;"	m
+OTOOL	include/Makefile	/^OTOOL = $/;"	m
+OTOOL	libjup/Makefile	/^OTOOL = $/;"	m
+OTOOL	src/Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	common/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	include/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	libjup/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	src/Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = jupiter$/;"	m
+PACKAGE	common/Makefile	/^PACKAGE = jupiter$/;"	m
+PACKAGE	config.h	47;"	d
+PACKAGE	include/Makefile	/^PACKAGE = jupiter$/;"	m
+PACKAGE	libjup/Makefile	/^PACKAGE = jupiter$/;"	m
+PACKAGE	src/Makefile	/^PACKAGE = jupiter$/;"	m
+PACKAGE	tmp/Makefile	/^PACKAGE = jupiter$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = jupiterbugreport@example.org$/;"	m
+PACKAGE_BUGREPORT	build/config.h	35;"	d
+PACKAGE_BUGREPORT	common/Makefile	/^PACKAGE_BUGREPORT = jupiterbugreport@example.org$/;"	m
+PACKAGE_BUGREPORT	config.h	50;"	d
+PACKAGE_BUGREPORT	include/Makefile	/^PACKAGE_BUGREPORT = jupiterbugreport@example.org$/;"	m
+PACKAGE_BUGREPORT	libjup/Makefile	/^PACKAGE_BUGREPORT = jupiterbugreport@example.org$/;"	m
+PACKAGE_BUGREPORT	src/Makefile	/^PACKAGE_BUGREPORT = jupiterbugreport@example.org$/;"	m
+PACKAGE_BUGREPORT	tmp/Makefile	/^PACKAGE_BUGREPORT = jupiterbugreport@example.org$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = Jupiter$/;"	m
+PACKAGE_NAME	build/config.h	38;"	d
+PACKAGE_NAME	common/Makefile	/^PACKAGE_NAME = Jupiter$/;"	m
+PACKAGE_NAME	config.h	53;"	d
+PACKAGE_NAME	include/Makefile	/^PACKAGE_NAME = Jupiter$/;"	m
+PACKAGE_NAME	libjup/Makefile	/^PACKAGE_NAME = Jupiter$/;"	m
+PACKAGE_NAME	src/Makefile	/^PACKAGE_NAME = Jupiter$/;"	m
+PACKAGE_NAME	tmp/Makefile	/^PACKAGE_NAME = Jupiter$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = Jupiter 1.0$/;"	m
+PACKAGE_STRING	build/config.h	41;"	d
+PACKAGE_STRING	common/Makefile	/^PACKAGE_STRING = Jupiter 1.0$/;"	m
+PACKAGE_STRING	config.h	56;"	d
+PACKAGE_STRING	include/Makefile	/^PACKAGE_STRING = Jupiter 1.0$/;"	m
+PACKAGE_STRING	libjup/Makefile	/^PACKAGE_STRING = Jupiter 1.0$/;"	m
+PACKAGE_STRING	src/Makefile	/^PACKAGE_STRING = Jupiter 1.0$/;"	m
+PACKAGE_STRING	tmp/Makefile	/^PACKAGE_STRING = Jupiter 1.0$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = jupiter$/;"	m
+PACKAGE_TARNAME	build/config.h	44;"	d
+PACKAGE_TARNAME	common/Makefile	/^PACKAGE_TARNAME = jupiter$/;"	m
+PACKAGE_TARNAME	config.h	59;"	d
+PACKAGE_TARNAME	include/Makefile	/^PACKAGE_TARNAME = jupiter$/;"	m
+PACKAGE_TARNAME	libjup/Makefile	/^PACKAGE_TARNAME = jupiter$/;"	m
+PACKAGE_TARNAME	src/Makefile	/^PACKAGE_TARNAME = jupiter$/;"	m
+PACKAGE_TARNAME	tmp/Makefile	/^PACKAGE_TARNAME = jupiter$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	build/config.h	47;"	d
+PACKAGE_URL	common/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	config.h	62;"	d
+PACKAGE_URL	include/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	libjup/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	src/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	tmp/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	build/config.h	50;"	d
+PACKAGE_VERSION	common/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	config.h	65;"	d
+PACKAGE_VERSION	include/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	libjup/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	src/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	tmp/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	common/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	include/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	libjup/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	tmp/Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	common/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	include/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	libjup/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	tmp/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	common/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	include/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	libjup/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	src/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	tmp/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	common/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	include/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	libjup/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	tmp/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	common/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	include/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	libjup/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	tmp/Makefile	/^PRE_UNINSTALL = :$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	common/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	include/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	libjup/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	src/Makefile	/^RANLIB = ranlib$/;"	m
+RECHECK_LOGS	src/Makefile	/^RECHECK_LOGS = $(TEST_LOGS)$/;"	m
+RECURSIVE_CLEAN_TARGETS	Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_CLEAN_TARGETS	src/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \\$/;"	m
+RECURSIVE_TARGETS	src/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \\$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SED	common/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	include/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	libjup/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	src/Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	common/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	include/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	libjup/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	src/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	tmp/Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	common/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	include/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	libjup/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	src/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	tmp/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES =$/;"	m
+SOURCES	common/Makefile	/^SOURCES = $(libjupcommon_la_SOURCES)$/;"	m
+SOURCES	include/Makefile	/^SOURCES =$/;"	m
+SOURCES	libjup/Makefile	/^SOURCES = $(libjupiter_la_SOURCES)$/;"	m
+SOURCES	src/Makefile	/^SOURCES =$/;"	m
+SOURCES	tmp/Makefile	/^SOURCES =$/;"	m
+STDC_HEADERS	build/config.h	53;"	d
+STDC_HEADERS	config.h	68;"	d
+STRIP	Makefile	/^STRIP = strip$/;"	m
+STRIP	common/Makefile	/^STRIP = strip$/;"	m
+STRIP	include/Makefile	/^STRIP = strip$/;"	m
+STRIP	libjup/Makefile	/^STRIP = strip$/;"	m
+STRIP	src/Makefile	/^STRIP = strip$/;"	m
+STRIP	tmp/Makefile	/^STRIP = $/;"	m
+SUBDIR	tmp/Makefile	/^SUBDIR = src temp$/;"	m
+SUBDIRS	Makefile	/^SUBDIRS = common include  libjup src $/;"	m
+SUBDIRS	src/Makefile	/^SUBDIRS = modules\/hithere$/;"	m
+TESTS	src/Makefile	/^TESTS =$/;"	m
+TEST_EXTENSIONS	src/Makefile	/^TEST_EXTENSIONS =  .test$/;"	m
+TEST_LOGS	src/Makefile	/^TEST_LOGS = $(am__test_logs2:.test.log=.log)$/;"	m
+TEST_LOG_COMPILE	src/Makefile	/^TEST_LOG_COMPILE = $(TEST_LOG_COMPILER) $(AM_TEST_LOG_FLAGS) \\$/;"	m
+TEST_LOG_DRIVER	src/Makefile	/^TEST_LOG_DRIVER = $(SHELL) $(top_srcdir)\/test-driver$/;"	m
+TEST_SUITE_LOG	src/Makefile	/^TEST_SUITE_LOG = test-suite.log$/;"	m
+VERSION	Makefile	/^VERSION = 1.0$/;"	m
+VERSION	common/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	config.h	71;"	d
+VERSION	include/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	libjup/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	src/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	tmp/Makefile	/^VERSION = 1.0$/;"	m
+VPATH	build/Makefile	/^VPATH =  ..$/;"	m
+VPATH	build/src/Makefile	/^VPATH =  ..\/..\/src$/;"	m
+abs_builddir	Makefile	/^abs_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_builddir	common/Makefile	/^abs_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter\/common$/;"	m
+abs_builddir	include/Makefile	/^abs_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter\/include$/;"	m
+abs_builddir	libjup/Makefile	/^abs_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter\/libjup$/;"	m
+abs_builddir	src/Makefile	/^abs_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter\/src$/;"	m
+abs_builddir	tmp/Makefile	/^abs_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter\/tmp$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_srcdir	common/Makefile	/^abs_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter\/common$/;"	m
+abs_srcdir	include/Makefile	/^abs_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter\/include$/;"	m
+abs_srcdir	libjup/Makefile	/^abs_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter\/libjup$/;"	m
+abs_srcdir	src/Makefile	/^abs_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter\/src$/;"	m
+abs_srcdir	tmp/Makefile	/^abs_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter\/tmp$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_builddir	common/Makefile	/^abs_top_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_builddir	include/Makefile	/^abs_top_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_builddir	libjup/Makefile	/^abs_top_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_builddir	src/Makefile	/^abs_top_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_builddir	tmp/Makefile	/^abs_top_builddir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_srcdir	common/Makefile	/^abs_top_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_srcdir	include/Makefile	/^abs_top_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_srcdir	libjup/Makefile	/^abs_top_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_srcdir	src/Makefile	/^abs_top_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+abs_top_srcdir	tmp/Makefile	/^abs_top_srcdir = \/home\/mto\/jupiter\/automakeCh3\/jupiter$/;"	m
+ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	common/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	include/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	libjup/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	src/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	common/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	include/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	libjup/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	tmp/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	common/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	include/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	libjup/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	src/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+aix_post_process_depfile	depcomp	/^aix_post_process_depfile ()$/;"	f
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__DIST_COMMON	Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/config.h.in AUTHORS \\$/;"	m
+am__DIST_COMMON	common/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp$/;"	m
+am__DIST_COMMON	include/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in$/;"	m
+am__DIST_COMMON	libjup/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp$/;"	m
+am__DIST_COMMON	src/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/test-driver$/;"	m
+am__DIST_COMMON	tmp/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	common/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	include/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	libjup/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	tmp/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__base_list	include/Makefile	/^am__base_list = \\$/;"	m
+am__base_list	libjup/Makefile	/^am__base_list = \\$/;"	m
+am__base_list	src/Makefile	/^am__base_list = \\$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	common/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	include/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	libjup/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	src/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	tmp/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	common/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	include/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	libjup/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	tmp/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__check_pre	src/Makefile	/^am__check_pre = \\$/;"	m
+am__common_driver_flags	src/Makefile	/^am__common_driver_flags = \\$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	common/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	include/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	libjup/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	tmp/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__copy_in_global_log_rx	src/Makefile	/^am__copy_in_global_log_rx = ^[ 	]*:copy-in-global-log:[ 	]*$/;"	m
+am__create_global_log	src/Makefile	/^am__create_global_log = $(AWK) ' \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	common/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	include/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	libjup/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	src/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	common/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	libjup/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__global_test_result_rx	src/Makefile	/^am__global_test_result_rx = ^[ 	]*:global-test-result:[ 	]*$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__include	common/Makefile	/^am__include = include$/;"	m
+am__include	include/Makefile	/^am__include = include$/;"	m
+am__include	libjup/Makefile	/^am__include = include$/;"	m
+am__include	src/Makefile	/^am__include = include$/;"	m
+am__include	tmp/Makefile	/^am__include = include$/;"	m
+am__install_max	include/Makefile	/^am__install_max = 40$/;"	m
+am__install_max	libjup/Makefile	/^am__install_max = 40$/;"	m
+am__install_max	src/Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	include/Makefile	/^am__installdirs = "$(DESTDIR)$(includedir)"$/;"	m
+am__installdirs	libjup/Makefile	/^am__installdirs = "$(DESTDIR)$(libdir)"$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	common/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	include/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	libjup/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	src/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	tmp/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	common/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	include/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	libjup/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	src/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	tmp/Makefile	/^am__leading_dot = .$/;"	m
+am__list_recheck_tests	src/Makefile	/^am__list_recheck_tests = $(AWK) '{ \\$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	common/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	include/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	libjup/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	src/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	tmp/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	common/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	include/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	libjup/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	src/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	tmp/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	common/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	include/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	libjup/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	src/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	tmp/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	common/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	libjup/Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	include/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	libjup/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	src/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	include/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	libjup/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	src/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	include/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	libjup/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	src/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__post_remove_distdir	Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__quote	common/Makefile	/^am__quote = $/;"	m
+am__quote	include/Makefile	/^am__quote = $/;"	m
+am__quote	libjup/Makefile	/^am__quote = $/;"	m
+am__quote	src/Makefile	/^am__quote = $/;"	m
+am__quote	tmp/Makefile	/^am__quote = $/;"	m
+am__recheck_rx	src/Makefile	/^am__recheck_rx = ^[ 	]*:recheck:[ 	]*$/;"	m
+am__recursive_targets	Makefile	/^am__recursive_targets = \\$/;"	m
+am__recursive_targets	src/Makefile	/^am__recursive_targets = \\$/;"	m
+am__relativize	Makefile	/^am__relativize = \\$/;"	m
+am__relativize	src/Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__rst_title	src/Makefile	/^am__rst_title = { sed 's\/.*\/   &   \/;h;s\/.\/=\/g;p;x;s\/ *$$\/\/;p;g' && echo; }$/;"	m
+am__set_TESTS_bases	src/Makefile	/^am__set_TESTS_bases = \\$/;"	m
+am__set_b	src/Makefile	/^am__set_b = \\$/;"	m
+am__sh_e_setup	src/Makefile	/^am__sh_e_setup = case $$- in *e*) set +e;; esac$/;"	m
+am__strip_dir	include/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	libjup/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	src/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tagged_files	common/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	include/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	libjup/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	src/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	tmp/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	common/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	include/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	libjup/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	src/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	tmp/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__test_logs1	src/Makefile	/^am__test_logs1 = $(TESTS:=.log)$/;"	m
+am__test_logs2	src/Makefile	/^am__test_logs2 = $(am__test_logs1:.log=.log)$/;"	m
+am__tty_colors	src/Makefile	/^am__tty_colors = { \\$/;"	m
+am__tty_colors_dummy	src/Makefile	/^am__tty_colors_dummy = \\$/;"	m
+am__uninstall_files_from_dir	include/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uninstall_files_from_dir	libjup/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uninstall_files_from_dir	src/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	common/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	include/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	libjup/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	src/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	common/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	include/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	libjup/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	src/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	tmp/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	common/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_	libjup/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	common/Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_0	libjup/Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_1	common/Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CCLD_1	libjup/Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CC_	common/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_	libjup/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	common/Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_0	libjup/Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_1	common/Makefile	/^am__v_CC_1 = $/;"	m
+am__v_CC_1	libjup/Makefile	/^am__v_CC_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	common/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	include/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	libjup/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	src/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	tmp/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	common/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	include/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	libjup/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	src/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	tmp/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	common/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	include/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	libjup/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	src/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	tmp/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	common/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	include/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	libjup/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	src/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	tmp/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	common/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	include/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	libjup/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	src/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	tmp/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	common/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	include/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	libjup/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	src/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	tmp/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	common/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	include/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	libjup/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	src/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	tmp/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	common/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	include/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	libjup/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	src/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	tmp/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	common/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	include/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	libjup/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	src/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	tmp/Makefile	/^am__v_at_1 = $/;"	m
+am__v_lt_	common/Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_	libjup/Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	common/Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_0	libjup/Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_1	common/Makefile	/^am__v_lt_1 = $/;"	m
+am__v_lt_1	libjup/Makefile	/^am__v_lt_1 = $/;"	m
+am__vpath_adj	include/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	libjup/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	src/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	include/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	libjup/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	src/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_libjupcommon_la_OBJECTS	common/Makefile	/^am_libjupcommon_la_OBJECTS = libjupcommon_la-print.lo$/;"	m
+am_libjupiter_la_OBJECTS	libjup/Makefile	/^am_libjupiter_la_OBJECTS = libjupiter_la-jup_print.lo$/;"	m
+as_fn_append	build/config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	build/jupiter-1.0/configure	/^  as_fn_append ()$/;"	f
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	build/config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	build/jupiter-1.0/configure	/^  as_fn_arith ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	build/config.status	/^as_fn_error ()$/;"	f
+as_fn_error	build/jupiter-1.0/configure	/^as_fn_error ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	build/config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	build/jupiter-1.0/configure	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	build/config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	build/jupiter-1.0/configure	/^as_fn_exit ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	build/jupiter-1.0/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	build/config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	build/jupiter-1.0/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	build/jupiter-1.0/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	build/jupiter-1.0/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	build/config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	build/jupiter-1.0/configure	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	build/jupiter-1.0/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	build/config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	build/jupiter-1.0/configure	/^as_fn_unset ()$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+bash_var	Makefile	/^bash_var = yes$/;"	m
+bash_var	common/Makefile	/^bash_var = yes$/;"	m
+bash_var	include/Makefile	/^bash_var = yes$/;"	m
+bash_var	libjup/Makefile	/^bash_var = yes$/;"	m
+bash_var	src/Makefile	/^bash_var = yes$/;"	m
+bash_var	tmp/Makefile	/^bash_var = yes$/;"	m
+bin_PROGRAM	src/Makefile	/^bin_PROGRAM = jupiter$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	build/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	build/src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	common/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	include/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	libjup/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	tmp/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = x86_64-pc-linux-gnu$/;"	m
+build	common/Makefile	/^build = x86_64-pc-linux-gnu$/;"	m
+build	include/Makefile	/^build = x86_64-pc-linux-gnu$/;"	m
+build	libjup/Makefile	/^build = x86_64-pc-linux-gnu$/;"	m
+build	src/Makefile	/^build = x86_64-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_alias	common/Makefile	/^build_alias = $/;"	m
+build_alias	include/Makefile	/^build_alias = $/;"	m
+build_alias	libjup/Makefile	/^build_alias = $/;"	m
+build_alias	src/Makefile	/^build_alias = $/;"	m
+build_alias	tmp/Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_cpu	common/Makefile	/^build_cpu = x86_64$/;"	m
+build_cpu	include/Makefile	/^build_cpu = x86_64$/;"	m
+build_cpu	libjup/Makefile	/^build_cpu = x86_64$/;"	m
+build_cpu	src/Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_os	common/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	include/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	libjup/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	src/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-pc-linux-gnu$/;"	m
+build_triplet	common/Makefile	/^build_triplet = x86_64-pc-linux-gnu$/;"	m
+build_triplet	include/Makefile	/^build_triplet = x86_64-pc-linux-gnu$/;"	m
+build_triplet	libjup/Makefile	/^build_triplet = x86_64-pc-linux-gnu$/;"	m
+build_triplet	src/Makefile	/^build_triplet = x86_64-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+build_vendor	common/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	include/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	libjup/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	src/Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+builddir	common/Makefile	/^builddir = .$/;"	m
+builddir	include/Makefile	/^builddir = .$/;"	m
+builddir	libjup/Makefile	/^builddir = .$/;"	m
+builddir	src/Makefile	/^builddir = .$/;"	m
+builddir	tmp/Makefile	/^builddir = .$/;"	m
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	common/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	include/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	libjup/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	tmp/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	common/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	include/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	libjup/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	tmp/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	common/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	libjup/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distdir	build/Makefile	/^distdir = $(tarname)-$(version)$/;"	m
+distdir	build/src/Makefile	/^distdir = $(tarname)-$(version)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	common/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	include/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	libjup/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	tmp/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	common/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	include/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	libjup/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	src/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	tmp/Makefile	/^dvidir = ${docdir}$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	build/Makefile	/^exec_prefix =${prefix}$/;"	m
+exec_prefix	build/src/Makefile	/^exec_prefix =${prefix}$/;"	m
+exec_prefix	common/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	include/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	libjup/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	tmp/Makefile	/^exec_prefix = ${prefix}$/;"	m
+func_add_hook	libtool	/^func_add_hook ()$/;"	f
+func_add_hook	ltmain.sh	/^func_add_hook ()$/;"	f
+func_append	libtool	/^  func_append ()$/;"	f
+func_append	ltmain.sh	/^  func_append ()$/;"	f
+func_append_quoted	libtool	/^  func_append_quoted ()$/;"	f
+func_append_quoted	ltmain.sh	/^  func_append_quoted ()$/;"	f
+func_append_uniq	libtool	/^func_append_uniq ()$/;"	f
+func_append_uniq	ltmain.sh	/^func_append_uniq ()$/;"	f
+func_arith	libtool	/^  func_arith ()$/;"	f
+func_arith	ltmain.sh	/^  func_arith ()$/;"	f
+func_cc_basename	config.status	/^func_cc_basename ()$/;"	f
+func_cc_basename	configure	/^func_cc_basename ()$/;"	f
+func_cc_basename	libtool	/^func_cc_basename ()$/;"	f
+func_check_prog_grep	libtool	/^  func_check_prog_grep ()$/;"	f
+func_check_prog_grep	ltmain.sh	/^  func_check_prog_grep ()$/;"	f
+func_check_prog_sed	libtool	/^  func_check_prog_sed ()$/;"	f
+func_check_prog_sed	ltmain.sh	/^  func_check_prog_sed ()$/;"	f
+func_check_version_match	libtool	/^func_check_version_match ()$/;"	f
+func_check_version_match	ltmain.sh	/^func_check_version_match ()$/;"	f
+func_cl_dashL	compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashl	compile	/^func_cl_dashl ()$/;"	f
+func_cl_wrapper	compile	/^func_cl_wrapper ()$/;"	f
+func_config	libtool	/^func_config ()$/;"	f
+func_config	ltmain.sh	/^func_config ()$/;"	f
+func_convert_core_file_wine_to_w32	libtool	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_file_wine_to_w32	ltmain.sh	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	libtool	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	ltmain.sh	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	libtool	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	ltmain.sh	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_file_check	libtool	/^func_convert_file_check ()$/;"	f
+func_convert_file_check	ltmain.sh	/^func_convert_file_check ()$/;"	f
+func_convert_file_cygwin_to_w32	libtool	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_cygwin_to_w32	ltmain.sh	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_msys_to_cygwin	libtool	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_cygwin	ltmain.sh	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_w32	libtool	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_msys_to_w32	ltmain.sh	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_nix_to_cygwin	libtool	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_cygwin	ltmain.sh	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_w32	libtool	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_nix_to_w32	ltmain.sh	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_noop	libtool	/^func_convert_file_noop ()$/;"	f
+func_convert_file_noop	ltmain.sh	/^func_convert_file_noop ()$/;"	f
+func_convert_path_check	libtool	/^func_convert_path_check ()$/;"	f
+func_convert_path_check	ltmain.sh	/^func_convert_path_check ()$/;"	f
+func_convert_path_cygwin_to_w32	libtool	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_cygwin_to_w32	ltmain.sh	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_front_back_pathsep	libtool	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_front_back_pathsep	ltmain.sh	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_msys_to_cygwin	libtool	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_cygwin	ltmain.sh	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_w32	libtool	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_msys_to_w32	ltmain.sh	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_nix_to_cygwin	libtool	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_cygwin	ltmain.sh	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_w32	libtool	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_nix_to_w32	ltmain.sh	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_noop	libtool	/^func_convert_path_noop ()$/;"	f
+func_convert_path_noop	ltmain.sh	/^func_convert_path_noop ()$/;"	f
+func_cygming_dll_for_implib	libtool	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib	ltmain.sh	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib_fallback	libtool	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback	ltmain.sh	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	libtool	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	ltmain.sh	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_gnu_implib_p	libtool	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_gnu_implib_p	ltmain.sh	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_ms_implib_p	libtool	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygming_ms_implib_p	ltmain.sh	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygpath	libtool	/^func_cygpath ()$/;"	f
+func_cygpath	ltmain.sh	/^func_cygpath ()$/;"	f
+func_dll_def_p	libtool	/^func_dll_def_p ()$/;"	f
+func_dll_def_p	ltmain.sh	/^func_dll_def_p ()$/;"	f
+func_echo	libtool	/^func_echo ()$/;"	f
+func_echo	ltmain.sh	/^func_echo ()$/;"	f
+func_echo_all	configure	/^func_echo_all ()$/;"	f
+func_echo_all	libtool	/^func_echo_all ()$/;"	f
+func_echo_all	ltmain.sh	/^func_echo_all ()$/;"	f
+func_echo_infix_1	libtool	/^func_echo_infix_1 ()$/;"	f
+func_echo_infix_1	ltmain.sh	/^func_echo_infix_1 ()$/;"	f
+func_emit_cwrapperexe_src	libtool	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_cwrapperexe_src	ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	libtool	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper	ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_enable_tag	libtool	/^func_enable_tag ()$/;"	f
+func_enable_tag	ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	libtool	/^func_error ()$/;"	f
+func_error	ltmain.sh	/^func_error ()$/;"	f
+func_exec_program	libtool	/^func_exec_program ()$/;"	f
+func_exec_program	ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program_core	libtool	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_executable_p	libtool	/^func_executable_p ()$/;"	f
+func_executable_p	ltmain.sh	/^func_executable_p ()$/;"	f
+func_execute_cmds	libtool	/^func_execute_cmds ()$/;"	f
+func_execute_cmds	ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fallback_echo	config.status	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	libtool	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fatal_configuration	libtool	/^func_fatal_configuration ()$/;"	f
+func_fatal_configuration	ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	libtool	/^func_fatal_error ()$/;"	f
+func_fatal_error	ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	libtool	/^func_fatal_help ()$/;"	f
+func_fatal_help	ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	libtool	/^func_features ()$/;"	f
+func_features	ltmain.sh	/^func_features ()$/;"	f
+func_file_conv	compile	/^func_file_conv ()$/;"	f
+func_generate_dlsyms	libtool	/^func_generate_dlsyms ()$/;"	f
+func_generate_dlsyms	ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_generated_by_libtool_p	libtool	/^func_generated_by_libtool_p ()$/;"	f
+func_generated_by_libtool_p	ltmain.sh	/^func_generated_by_libtool_p ()$/;"	f
+func_grep	libtool	/^func_grep ()$/;"	f
+func_grep	ltmain.sh	/^func_grep ()$/;"	f
+func_help	libtool	/^func_help ()$/;"	f
+func_help	ltmain.sh	/^func_help ()$/;"	f
+func_hookable	libtool	/^func_hookable ()$/;"	f
+func_hookable	ltmain.sh	/^func_hookable ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_init_to_host_path_cmd	libtool	/^func_init_to_host_path_cmd ()$/;"	f
+func_init_to_host_path_cmd	ltmain.sh	/^func_init_to_host_path_cmd ()$/;"	f
+func_lalib_p	libtool	/^func_lalib_p ()$/;"	f
+func_lalib_p	ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	libtool	/^func_lalib_unsafe_p ()$/;"	f
+func_lalib_unsafe_p	ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	libtool	/^  func_len ()$/;"	f
+func_len	ltmain.sh	/^  func_len ()$/;"	f
+func_lo2o	libtool	/^  func_lo2o ()$/;"	f
+func_lo2o	ltmain.sh	/^  func_lo2o ()$/;"	f
+func_lt_dump_args	libtool	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_lt_ver	libtool	/^func_lt_ver ()$/;"	f
+func_lt_ver	ltmain.sh	/^func_lt_ver ()$/;"	f
+func_ltwrapper_executable_p	libtool	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_executable_p	ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	libtool	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_p	ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	libtool	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_script_p	ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	libtool	/^func_ltwrapper_scriptname ()$/;"	f
+func_ltwrapper_scriptname	ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	libtool	/^func_missing_arg ()$/;"	f
+func_missing_arg	ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	libtool	/^func_mkdir_p ()$/;"	f
+func_mkdir_p	ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	libtool	/^func_mode_compile ()$/;"	f
+func_mode_compile	ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	libtool	/^func_mode_execute ()$/;"	f
+func_mode_execute	ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	libtool	/^func_mode_finish ()$/;"	f
+func_mode_finish	ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	libtool	/^func_mode_help ()$/;"	f
+func_mode_help	ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	libtool	/^func_mode_install ()$/;"	f
+func_mode_install	ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	libtool	/^func_mode_link ()$/;"	f
+func_mode_link	ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	libtool	/^func_mode_uninstall ()$/;"	f
+func_mode_uninstall	ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_munge_path_list	config.status	/^func_munge_path_list ()$/;"	f
+func_munge_path_list	configure	/^func_munge_path_list ()$/;"	f
+func_munge_path_list	libtool	/^func_munge_path_list ()$/;"	f
+func_normal_abspath	libtool	/^func_normal_abspath ()$/;"	f
+func_normal_abspath	ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_notquiet	libtool	/^func_notquiet ()$/;"	f
+func_notquiet	ltmain.sh	/^func_notquiet ()$/;"	f
+func_options	libtool	/^func_options ()$/;"	f
+func_options	ltmain.sh	/^func_options ()$/;"	f
+func_options_prep	libtool	/^func_options_prep ()$/;"	f
+func_options_prep	ltmain.sh	/^func_options_prep ()$/;"	f
+func_parse_lt_options	libtool	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_parse_options	libtool	/^func_parse_options ()$/;"	f
+func_parse_options	ltmain.sh	/^func_parse_options ()$/;"	f
+func_path_progs	libtool	/^func_path_progs ()$/;"	f
+func_path_progs	ltmain.sh	/^func_path_progs ()$/;"	f
+func_quote_for_eval	libtool	/^func_quote_for_eval ()$/;"	f
+func_quote_for_eval	ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	libtool	/^func_quote_for_expand ()$/;"	f
+func_quote_for_expand	ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_relative_path	libtool	/^func_relative_path ()$/;"	f
+func_relative_path	ltmain.sh	/^func_relative_path ()$/;"	f
+func_remove_hook	libtool	/^func_remove_hook ()$/;"	f
+func_remove_hook	ltmain.sh	/^func_remove_hook ()$/;"	f
+func_replace_sysroot	libtool	/^func_replace_sysroot ()$/;"	f
+func_replace_sysroot	ltmain.sh	/^func_replace_sysroot ()$/;"	f
+func_require_term_colors	libtool	/^func_require_term_colors ()$/;"	f
+func_require_term_colors	ltmain.sh	/^func_require_term_colors ()$/;"	f
+func_resolve_sysroot	libtool	/^func_resolve_sysroot ()$/;"	f
+func_resolve_sysroot	ltmain.sh	/^func_resolve_sysroot ()$/;"	f
+func_run_hooks	libtool	/^func_run_hooks ()$/;"	f
+func_run_hooks	ltmain.sh	/^func_run_hooks ()$/;"	f
+func_show_eval	libtool	/^func_show_eval ()$/;"	f
+func_show_eval	ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	libtool	/^func_show_eval_locale ()$/;"	f
+func_show_eval_locale	ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_sort_ver	libtool	/^func_sort_ver ()$/;"	f
+func_sort_ver	ltmain.sh	/^func_sort_ver ()$/;"	f
+func_source	libtool	/^func_source ()$/;"	f
+func_source	ltmain.sh	/^func_source ()$/;"	f
+func_split_equals	libtool	/^  func_split_equals ()$/;"	f
+func_split_equals	ltmain.sh	/^  func_split_equals ()$/;"	f
+func_split_short_opt	libtool	/^  func_split_short_opt ()$/;"	f
+func_split_short_opt	ltmain.sh	/^  func_split_short_opt ()$/;"	f
+func_stripname	libtool	/^  func_stripname ()$/;"	f
+func_stripname	ltmain.sh	/^  func_stripname ()$/;"	f
+func_suncc_cstd_abi	libtool	/^func_suncc_cstd_abi ()$/;"	f
+func_suncc_cstd_abi	ltmain.sh	/^func_suncc_cstd_abi ()$/;"	f
+func_to_host_file	libtool	/^func_to_host_file ()$/;"	f
+func_to_host_file	ltmain.sh	/^func_to_host_file ()$/;"	f
+func_to_host_path	libtool	/^func_to_host_path ()$/;"	f
+func_to_host_path	ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_tool_file	libtool	/^func_to_tool_file ()$/;"	f
+func_to_tool_file	ltmain.sh	/^func_to_tool_file ()$/;"	f
+func_tr_sh	libtool	/^func_tr_sh ()$/;"	f
+func_tr_sh	ltmain.sh	/^func_tr_sh ()$/;"	f
+func_usage	libtool	/^func_usage ()$/;"	f
+func_usage	ltmain.sh	/^func_usage ()$/;"	f
+func_usage_message	libtool	/^func_usage_message ()$/;"	f
+func_usage_message	ltmain.sh	/^func_usage_message ()$/;"	f
+func_validate_options	libtool	/^func_validate_options ()$/;"	f
+func_validate_options	ltmain.sh	/^func_validate_options ()$/;"	f
+func_verbose	libtool	/^func_verbose ()$/;"	f
+func_verbose	ltmain.sh	/^func_verbose ()$/;"	f
+func_version	libtool	/^func_version ()$/;"	f
+func_version	ltmain.sh	/^func_version ()$/;"	f
+func_warn_and_continue	libtool	/^func_warn_and_continue ()$/;"	f
+func_warn_and_continue	ltmain.sh	/^func_warn_and_continue ()$/;"	f
+func_warning	libtool	/^func_warning ()$/;"	f
+func_warning	ltmain.sh	/^func_warning ()$/;"	f
+func_win32_import_lib_p	libtool	/^func_win32_import_lib_p ()$/;"	f
+func_win32_import_lib_p	ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	libtool	/^func_write_libtool_object ()$/;"	f
+func_write_libtool_object	ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	libtool	/^  func_xform ()$/;"	f
+func_xform	ltmain.sh	/^  func_xform ()$/;"	f
+get_salutation	src/modules/hithere/hithere.c	/^const char* get_salutation(void)$/;"	f
+get_salutation_t	src/module.h	/^typedef const char * get_salutation_t(void); $/;"	t
+give_advice	missing	/^give_advice ()$/;"	f
+host	Makefile	/^host = x86_64-pc-linux-gnu$/;"	m
+host	common/Makefile	/^host = x86_64-pc-linux-gnu$/;"	m
+host	include/Makefile	/^host = x86_64-pc-linux-gnu$/;"	m
+host	libjup/Makefile	/^host = x86_64-pc-linux-gnu$/;"	m
+host	src/Makefile	/^host = x86_64-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_alias	common/Makefile	/^host_alias = $/;"	m
+host_alias	include/Makefile	/^host_alias = $/;"	m
+host_alias	libjup/Makefile	/^host_alias = $/;"	m
+host_alias	src/Makefile	/^host_alias = $/;"	m
+host_alias	tmp/Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_cpu	common/Makefile	/^host_cpu = x86_64$/;"	m
+host_cpu	include/Makefile	/^host_cpu = x86_64$/;"	m
+host_cpu	libjup/Makefile	/^host_cpu = x86_64$/;"	m
+host_cpu	src/Makefile	/^host_cpu = x86_64$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_os	common/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	include/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	libjup/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	src/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-pc-linux-gnu$/;"	m
+host_triplet	common/Makefile	/^host_triplet = x86_64-pc-linux-gnu$/;"	m
+host_triplet	include/Makefile	/^host_triplet = x86_64-pc-linux-gnu$/;"	m
+host_triplet	libjup/Makefile	/^host_triplet = x86_64-pc-linux-gnu$/;"	m
+host_triplet	src/Makefile	/^host_triplet = x86_64-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+host_vendor	common/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	include/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	libjup/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	src/Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	common/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	include/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	libjup/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	src/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	tmp/Makefile	/^htmldir = ${docdir}$/;"	m
+include_HEADERS	include/Makefile	/^include_HEADERS = libjupiter.h$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	common/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	include/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	libjup/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	tmp/Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	common/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	include/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	libjup/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	tmp/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/install-sh$/;"	m
+install_sh	common/Makefile	/^install_sh = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/install-sh$/;"	m
+install_sh	include/Makefile	/^install_sh = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/install-sh$/;"	m
+install_sh	libjup/Makefile	/^install_sh = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/install-sh$/;"	m
+install_sh	src/Makefile	/^install_sh = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/install-sh$/;"	m
+install_sh	tmp/Makefile	/^install_sh = ${SHELL} \/home\/mto\/jupiter\/automakeCh3\/jupiter\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	common/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	include/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	libjup/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	tmp/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	common/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	include/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	libjup/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	tmp/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	common/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	include/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	libjup/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	tmp/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+jupiter_CPPFLAGS	src/Makefile	/^jupiter_CPPFLAGS = -I$(top_srcdir)\/include$/;"	m
+jupiter_LDADD	src/Makefile	/^jupiter_LDADD = ..\/libjup\/libjupiter.la$/;"	m
+jupiter_SOURCE	src/Makefile	/^jupiter_SOURCE = main.c module.h #$/;"	m
+jupiter_print	libjup/jup_print.c	/^static void  jupiter_print(const char* salutation, const char* name)$/;"	f	file:
+lib_LTLIBRARIES	libjup/Makefile	/^lib_LTLIBRARIES = libjupiter.la$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	common/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	include/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	libjup/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	tmp/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	common/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	include/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	libjup/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	tmp/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libjupcommon_la_CFLAGS	common/Makefile	/^libjupcommon_la_CFLAGS = -fPIC$/;"	m
+libjupcommon_la_LIBADD	common/Makefile	/^libjupcommon_la_LIBADD =$/;"	m
+libjupcommon_la_LINK	common/Makefile	/^libjupcommon_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \\$/;"	m
+libjupcommon_la_OBJECTS	common/Makefile	/^libjupcommon_la_OBJECTS = $(am_libjupcommon_la_OBJECTS)$/;"	m
+libjupcommon_la_SOURCES	common/Makefile	/^libjupcommon_la_SOURCES = jupcommon.h print.c$/;"	m
+libjupiter_la_CPPFLAGS	libjup/Makefile	/^libjupiter_la_CPPFLAGS = -I$(top_srcdir)\/include -I$(top_srcdir)\/common$/;"	m
+libjupiter_la_DEPENDENCIES	libjup/Makefile	/^libjupiter_la_DEPENDENCIES = ..\/common\/libjupcommon.a$/;"	m
+libjupiter_la_LIBADD	libjup/Makefile	/^libjupiter_la_LIBADD = ..\/common\/libjupcommon.a$/;"	m
+libjupiter_la_OBJECTS	libjup/Makefile	/^libjupiter_la_OBJECTS = $(am_libjupiter_la_OBJECTS)$/;"	m
+libjupiter_la_SOURCES	libjup/Makefile	/^libjupiter_la_SOURCES = jup_print.c$/;"	m
+libtool_options_prep	libtool	/^libtool_options_prep ()$/;"	f
+libtool_options_prep	ltmain.sh	/^libtool_options_prep ()$/;"	f
+libtool_parse_options	libtool	/^libtool_parse_options ()$/;"	f
+libtool_parse_options	ltmain.sh	/^libtool_parse_options ()$/;"	f
+libtool_validate_options	libtool	/^libtool_validate_options ()$/;"	f
+libtool_validate_options	ltmain.sh	/^libtool_validate_options ()$/;"	f
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	common/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	include/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	libjup/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	tmp/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	common/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	include/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	libjup/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	tmp/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	src/main.c	/^int main(int argc ,char * argv[])$/;"	f
+make_dummy_depfile	depcomp	/^make_dummy_depfile ()$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	common/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	include/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	libjup/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	tmp/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	common/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	include/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	libjup/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	src/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	tmp/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	common/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	include/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	libjup/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	tmp/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+noinst_LTLIBRARIES	common/Makefile	/^noinst_LTLIBRARIES = libjupcommon.la$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	common/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	include/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	libjup/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	tmp/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+package	build/Makefile	/^package = Jupiter$/;"	m
+package	build/src/Makefile	/^package = Jupiter$/;"	m
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	common/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	include/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	libjup/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	tmp/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/jupiter$/;"	m
+pkgdatadir	common/Makefile	/^pkgdatadir = $(datadir)\/jupiter$/;"	m
+pkgdatadir	include/Makefile	/^pkgdatadir = $(datadir)\/jupiter$/;"	m
+pkgdatadir	libjup/Makefile	/^pkgdatadir = $(datadir)\/jupiter$/;"	m
+pkgdatadir	src/Makefile	/^pkgdatadir = $(datadir)\/jupiter$/;"	m
+pkgdatadir	tmp/Makefile	/^pkgdatadir = $(datadir)\/jupiter$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/jupiter$/;"	m
+pkgincludedir	common/Makefile	/^pkgincludedir = $(includedir)\/jupiter$/;"	m
+pkgincludedir	include/Makefile	/^pkgincludedir = $(includedir)\/jupiter$/;"	m
+pkgincludedir	libjup/Makefile	/^pkgincludedir = $(includedir)\/jupiter$/;"	m
+pkgincludedir	src/Makefile	/^pkgincludedir = $(includedir)\/jupiter$/;"	m
+pkgincludedir	tmp/Makefile	/^pkgincludedir = $(includedir)\/jupiter$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/jupiter$/;"	m
+pkglibdir	common/Makefile	/^pkglibdir = $(libdir)\/jupiter$/;"	m
+pkglibdir	include/Makefile	/^pkglibdir = $(libdir)\/jupiter$/;"	m
+pkglibdir	libjup/Makefile	/^pkglibdir = $(libdir)\/jupiter$/;"	m
+pkglibdir	src/Makefile	/^pkglibdir = $(libdir)\/jupiter$/;"	m
+pkglibdir	tmp/Makefile	/^pkglibdir = $(libdir)\/jupiter$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/jupiter$/;"	m
+pkglibexecdir	common/Makefile	/^pkglibexecdir = $(libexecdir)\/jupiter$/;"	m
+pkglibexecdir	include/Makefile	/^pkglibexecdir = $(libexecdir)\/jupiter$/;"	m
+pkglibexecdir	libjup/Makefile	/^pkglibexecdir = $(libexecdir)\/jupiter$/;"	m
+pkglibexecdir	src/Makefile	/^pkglibexecdir = $(libexecdir)\/jupiter$/;"	m
+pkglibexecdir	tmp/Makefile	/^pkglibexecdir = $(libexecdir)\/jupiter$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	build/Makefile	/^prefix= \/usr\/local$/;"	m
+prefix	build/src/Makefile	/^prefix= \/usr\/local$/;"	m
+prefix	common/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	include/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	libjup/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	src/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	tmp/Makefile	/^prefix = \/usr\/local$/;"	m
+print_it	common/print.c	/^static void * print_it(void* data)$/;"	f	file:
+print_routine	common/print.c	/^int print_routine(const char * salutation, const char *name)$/;"	f
+print_usage	test-driver	/^print_usage ()$/;"	f
+program_details	missing	/^program_details ()$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	common/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	include/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	libjup/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	tmp/Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+psdir	common/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	include/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	libjup/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	src/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	tmp/Makefile	/^psdir = ${docdir}$/;"	m
+runstatedir	Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	common/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	include/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	libjup/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	src/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	tmp/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	common/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	include/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	libjup/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	tmp/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+set_base_from	depcomp	/^set_base_from ()$/;"	f
+set_dir_from	depcomp	/^set_dir_from ()$/;"	f
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	common/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	include/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	libjup/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	tmp/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcdir	build/Makefile	/^srcdir = ..$/;"	m
+srcdir	build/src/Makefile	/^srcdir = ..\/..\/src$/;"	m
+srcdir	common/Makefile	/^srcdir = .$/;"	m
+srcdir	include/Makefile	/^srcdir = .$/;"	m
+srcdir	libjup/Makefile	/^srcdir = .$/;"	m
+srcdir	src/Makefile	/^srcdir = .$/;"	m
+srcdir	tmp/Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = .$/;"	m
+subdir	common/Makefile	/^subdir = common$/;"	m
+subdir	include/Makefile	/^subdir = include$/;"	m
+subdir	libjup/Makefile	/^subdir = libjup$/;"	m
+subdir	src/Makefile	/^subdir = src$/;"	m
+subdir	tmp/Makefile	/^subdir = tmp$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	common/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	include/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	libjup/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	tmp/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+target_alias	common/Makefile	/^target_alias = $/;"	m
+target_alias	include/Makefile	/^target_alias = $/;"	m
+target_alias	libjup/Makefile	/^target_alias = $/;"	m
+target_alias	src/Makefile	/^target_alias = $/;"	m
+target_alias	tmp/Makefile	/^target_alias = $/;"	m
+tarname	build/Makefile	/^tarname =jupiter$/;"	m
+tarname	build/src/Makefile	/^tarname =jupiter$/;"	m
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	common/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	include/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	libjup/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	src/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	tmp/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_builddir	common/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	include/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	libjup/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	src/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	tmp/Makefile	/^top_builddir = ..$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	common/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	include/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	libjup/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	src/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	tmp/Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	common/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	include/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	libjup/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	src/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	tmp/Makefile	/^transform = $(program_transform_name)$/;"	m
+usage_error	test-driver	/^usage_error ()$/;"	f
+version	build/Makefile	/^version = 1.0 $/;"	m
+version	build/src/Makefile	/^version = 1.0 $/;"	m

@@ -14,20 +14,22 @@
 
 
 
-static void * print_it(void* data)
+
+int  jupiter_print(const char* salutation, const char* name)
 {
-	return 0;
+	print_routine(salutation, name);
 }
 
-
-int print_routine(const char * name)
+/*
+int print_routine(const char * salutation, const char * name)
 {
 #if ASYNC_EXEC
 	pthread_t tid;
 	pthread_create(&tid, 0, print_it, (void*)name);
 	pthread_join(tid,0);
 #else
-	print_it(name); 
+	print_it(); 
 #endif
 	return 0;
 }
+*/

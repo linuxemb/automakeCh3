@@ -149,3 +149,9 @@ Using the LTLIBRARIES primary
 Update subdirs var in Makefle.am
 libjupcommon_a_CFLAGS
 libjupcommon_a_CFLAGS = -fPIC
+Modify prototom or printroutin and jupiter_print
+Adding a Plugin interface
+Do it in old fashioned way modiy configrue.ac Adding checks for dl lib and public header
+ Add moudles/hithere  under src/
+ Add SUBDIRS=modules/hithere in src/Makefile.am
+Create Makefile.am in src/modules/hithere/ 

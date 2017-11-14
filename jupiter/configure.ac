@@ -31,7 +31,7 @@ AC_ARG_ENABLE([asyn-exec],
 
 # Checks for header files.
 
-		AC_CHECK_HEADERS([stdlib.h ])
+		AC_CHECK_HEADERS([stdlib.h dlfcn.h])
 		if test "x${have_pthreads}" = xyes; then
 
 		AC_CHECK_HEADERS([pthread.h],[],[have_pthreads=no])
@@ -62,7 +62,6 @@ if test "x${async_exec}" = xyes; then
     AC_DEFINE([ASYNC_EXEC], 1, [async execution enabled])
 fi
 
-AC_CHECK_HEADERS([dlfcn.h])
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
@@ -73,3 +72,12 @@ AC_CHECK_HEADERS([dlfcn.h])
 			common/Makefile
 			src/Makefile])
 	AC_OUTPUT
+
+
+
+echo \
+${PACKAGE_NAME} Version ${PACKAGE_VERSION}
+
+Prefix: '${prefix}'
+Compiler: ' ${CC} ${CFLAGS} ${CPPFLAGS]'
+Libraries: '${LIBS}'

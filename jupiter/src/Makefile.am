@@ -1,5 +1,7 @@
+SUBDIRS = modules/hithere
+
 bin_PROGRAM= jupiter
-jupiter_SOURCE = main.c
+jupiter_SOURCE = main.c module.h #
 
 
 # Produce Option Variable-- POV

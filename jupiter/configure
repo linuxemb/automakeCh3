@@ -12982,7 +12982,7 @@ fi
 
 # Checks for header files.
 
-		for ac_header in stdlib.h
+		for ac_header in stdlib.h dlfcn.h
 do :
   as_ac_Header=`$as_echo "ac_cv_header_$ac_header" | $as_tr_sh`
 ac_fn_c_check_header_mongrel "$LINENO" "$ac_header" "$as_ac_Header" "$ac_includes_default"
@@ -13049,18 +13049,6 @@ if test "x${async_exec}" = xyes; then
 $as_echo "#define ASYNC_EXEC 1" >>confdefs.h
 
 fi
-
-for ac_header in dlfcn.h
-do :
-  ac_fn_c_check_header_mongrel "$LINENO" "dlfcn.h" "ac_cv_header_dlfcn_h" "$ac_includes_default"
-if test "x$ac_cv_header_dlfcn_h" = xyes; then :
-  cat >>confdefs.h <<_ACEOF
-#define HAVE_DLFCN_H 1
-_ACEOF
-
-fi
-
-done
 
 # Checks for typedefs, structures, and compiler characteristics.
 
@@ -15357,3 +15345,12 @@ if test -n "$ac_unrecognized_opts" && test "$enable_option_checking" != no; then
 $as_echo "$as_me: WARNING: unrecognized options: $ac_unrecognized_opts" >&2;}
 fi
 
+
+
+
+echo \
+${PACKAGE_NAME} Version ${PACKAGE_VERSION}
+
+Prefix: '${prefix}'
+Compiler: ' ${CC} ${CFLAGS} ${CPPFLAGS]'
+Libraries: '${LIBS}'
